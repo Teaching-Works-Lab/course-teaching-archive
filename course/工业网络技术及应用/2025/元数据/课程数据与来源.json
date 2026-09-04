@@ -1,0 +1,57 @@
+{
+  "build_date": "2026-09-05",
+  "primary_repository": "Teaching-Works-Lab/course-teaching-workflows",
+  "curriculum_repository": "Teaching-Works-Lab/intelligent-manufacturing-syllabus",
+  "course": {
+    "id": "25JD32410",
+    "course_code": "25JD32410",
+    "title": "工业网络技术及应用",
+    "category": "professional_elective",
+    "requirement_type": "elective",
+    "core_course": false,
+    "credits": 3,
+    "hours": {
+      "lecture_hours": 48,
+      "practice_hours": 0,
+      "experiment_hours": 0,
+      "computer_hours": 0,
+      "project_hours": 0,
+      "total_hours": 48
+    },
+    "semester": 6,
+    "assessment": "考查",
+    "offering_unit_source": "计信学院",
+    "offering_unit_rendered": "计算机与信息技术学院",
+    "source_page": 12,
+    "verification_status": "visually_verified"
+  },
+  "official_direct_indicators": [
+    "1.2",
+    "1.3",
+    "3.2",
+    "5.1",
+    "5.2",
+    "5.3",
+    "10.1",
+    "10.2",
+    "12.1",
+    "12.2"
+  ],
+  "matrix_source_page": 24,
+  "compiler_blobs": {
+    "syllabus.py": "a48f9e8d1354c06d65259db6a55c779fd9405d37",
+    "render_school_syllabus.py": "760e98ebb7afbdcff49a813c034e330aedfd1560",
+    "validate_release.py": "1b4dcfc96dd30944d4a2d98448bd4b4987f374bd",
+    "inspect_docx.py": "7e06af4bba1c331326abe1f4d75720c8416ea341"
+  },
+  "authored_fields": [
+    "english_title",
+    "prerequisites",
+    "subsequent",
+    "intro",
+    "course_goals",
+    "teaching_units",
+    "assessment_design",
+    "textbook_choice"
+  ]
+}

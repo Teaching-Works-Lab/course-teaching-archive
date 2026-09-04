@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "checks": {
+    "course_code": true,
+    "hours": true,
+    "college": true,
+    "assessment": true,
+    "theory_total": true,
+    "no_practice_sections": true,
+    "textbook_terminal": true,
+    "18_goals": true,
+    "goal_refs": true,
+    "weight_159": true,
+    "weight_1010": true,
+    "weight_1011": true,
+    "weight_1512": true,
+    "docx_title": true,
+    "docx_hours": true,
+    "docx_college": true,
+    "docx_textbook": true,
+    "table_structure": true,
+    "no_comments": true,
+    "no_revisions": true,
+    "no_hidden": true
+  },
+  "tables": [
+    [
+      12,
+      8
+    ],
+    [
+      19,
+      3
+    ],
+    [
+      7,
+      5
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      5,
+      4
+    ]
+  ],
+  "rendered_pages": 6,
+  "compiler": {
+    "check": "PASS",
+    "inspect": "PASS"
+  }
+}
