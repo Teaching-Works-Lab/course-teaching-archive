@@ -1,0 +1,45 @@
+{
+  "course_code": "25JD32106",
+  "course_title": "机械故障诊断及维护",
+  "program_repo": "Teaching-Works-Lab/intelligent-manufacturing-syllabus",
+  "program_file": "data/program.json",
+  "program_blob_sha": "cfc4ff117a8abcf727b8964072ea2b3a8b5236ab",
+  "course_facts": {
+    "category": "professional_elective",
+    "requirement_type": "elective",
+    "core_course": false,
+    "credits": 2,
+    "hours": {
+      "lecture": 32,
+      "practice": 0,
+      "experiment": 0,
+      "computer": 0,
+      "project": 0,
+      "total": 32
+    },
+    "semester": 7,
+    "assessment": "考查",
+    "offering_unit_raw": "机械学院",
+    "source_page": 12
+  },
+  "supported_indicators": [
+    "1.2",
+    "3.2",
+    "4.1",
+    "4.2",
+    "5.1",
+    "5.2",
+    "7.2",
+    "10.1",
+    "10.2",
+    "12.1",
+    "12.2"
+  ],
+  "compiler_repo": "Teaching-Works-Lab/course-teaching-workflows",
+  "compiler_script_git_blobs": {
+    "syllabus.py": "a48f9e8d1354c06d65259db6a55c779fd9405d37",
+    "render_school_syllabus.py": "760e98ebb7afbdcff49a813c034e330aedfd1560",
+    "inspect_docx.py": "7e06af4bba1c331326abe1f4d75720c8416ea341",
+    "validate_release.py": "1b4dcfc96dd30944d4a2d98448bd4b4987f374bd"
+  }
+}

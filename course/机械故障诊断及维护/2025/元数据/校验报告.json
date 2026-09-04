@@ -1,0 +1,307 @@
+{
+  "course": "25JD32106 机械故障诊断及维护",
+  "result": "PASS",
+  "check_count": 59,
+  "checks": [
+    {
+      "name": "硬事实-课程代码",
+      "pass": true,
+      "detail": "25JD32106"
+    },
+    {
+      "name": "硬事实-课程名称",
+      "pass": true,
+      "detail": "机械故障诊断及维护"
+    },
+    {
+      "name": "硬事实-学分",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "name": "硬事实-授课学期",
+      "pass": true,
+      "detail": "第7学期"
+    },
+    {
+      "name": "硬事实-考核方式",
+      "pass": true,
+      "detail": "考查"
+    },
+    {
+      "name": "硬事实-授课学院",
+      "pass": true,
+      "detail": "机械与动力工程学院"
+    },
+    {
+      "name": "学时分配",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "理论单元学时32",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "零学时环节不生成",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "18个课程目标",
+      "pass": true,
+      "detail": "18"
+    },
+    {
+      "name": "目标1.1闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标1.2闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标1.3闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标1.4闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标1.5闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标1.6闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标2.1闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标2.2闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标2.3闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标2.4闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标2.5闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标2.6闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标3.1闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标3.2闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标3.3闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标3.4闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标3.5闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标3.6闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "总评合计100",
+      "pass": true,
+      "detail": "[20, 30, 40, 10]"
+    },
+    {
+      "name": "平时内部合计100",
+      "pass": true,
+      "detail": "[15, 15, 15, 25, 10, 20]"
+    },
+    {
+      "name": "作业内部合计100",
+      "pass": true,
+      "detail": "[10, 15, 20, 30, 10, 15]"
+    },
+    {
+      "name": "报告内部合计100",
+      "pass": true,
+      "detail": "[10, 15, 20, 25, 15, 15]"
+    },
+    {
+      "name": "核验内部合计100",
+      "pass": true,
+      "detail": "[15, 15, 15, 25, 15, 15]"
+    },
+    {
+      "name": "平时量表合计100",
+      "pass": true,
+      "detail": "[40, 35, 25]"
+    },
+    {
+      "name": "作业量表合计100",
+      "pass": true,
+      "detail": "[10, 15, 20, 30, 10, 15]"
+    },
+    {
+      "name": "报告量表合计100",
+      "pass": true,
+      "detail": "[10, 15, 20, 25, 15, 15]"
+    },
+    {
+      "name": "核验量表合计100",
+      "pass": true,
+      "detail": "[35, 45, 20]"
+    },
+    {
+      "name": "教材ISBN终止规则",
+      "pass": true,
+      "detail": "张键, 汤赫男. 机械故障诊断技术（第3版）[M]. 北京：机械工业出版社，2024. ISBN 9787111756989"
+    },
+    {
+      "name": "无禁用词-待确认",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "无禁用词-待编制",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "无禁用词-AI生成",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "无禁用词-ChatGPT",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "无禁用词-Codex",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "无禁用词-source_id",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "无禁用词-proposal",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "无禁用词-official",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "无禁用词-derived",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "无禁用词-候选",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "无禁用词-建议值",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "无禁用词-机械学院",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "无禁用词-计信学院",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "学校基本信息表12x8",
+      "pass": true,
+      "detail": "(12, 8)"
+    },
+    {
+      "name": "无批注",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "无修订",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "无隐藏文字",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "check.log PASS",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "inspect.log PASS",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "validate_release.log PASS",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "视觉回归7页",
+      "pass": true,
+      "detail": "逐页检查通过"
+    }
+  ],
+  "visual_qa": {
+    "pages": 7,
+    "result": "PASS",
+    "notes": "逐页检查，无明显裁切、重叠、缺字或异常空白页。"
+  }
+}
