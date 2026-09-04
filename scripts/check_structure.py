@@ -1,14 +1,15 @@
 # -*- coding: utf-8 -*-
-"""结构自检：版本目录原子性、md/docx 成对、版本前缀一致。
+"""结构自检：版本原子目录、md/docx 配对提醒。
 
 用法：py -3.12 scripts/check_structure.py
 
-硬规则：
-  1. course/<课程名>/<版本>/ 下必须有 大纲/ 和 教案/ 两个目录；
-  2. 大纲/ 与 教案/ 内每个 .md 必须有同名 .docx（反之亦然）；
-  3. 文件名版本前缀（2025-/2027-）必须与所在版本目录一致；
-  4. 每个版本目录必须有 README.md 自查清单；
-  5. 每个版本目录都能追溯到 version/<版本>.md。
+规则：
+  1. course/<课程名>/<版本>/ 下必须有 大纲/ 和 教案/ 两个目录（教案可为空，仅 .gitkeep）；
+  2. 文件名采用课程代码原名（如 25JX31802-…），不以版本年为前缀；
+  3. 大纲/ 中若存在 .docx 而定稿缺同名 .md（事实源）→ 提示为警告（允许 docx 先行）；
+  4. md 若有但缺同名 .docx（可编译到学校版）→ 警告；
+  5. 每个版本目录必须有 README.md 自查清单；
+  6. 每个版本目录都能追溯到 version/<版本>.md。
 """
 from __future__ import annotations
 
@@ -23,6 +24,11 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 VERSIONS = {"2025", "2027"}
 
 
+def _content_files(d: Path):
+    """返回目录下真实内容文件（排除 .gitkeep / .gitignore 等占位）。"""
+    return [p for p in d.iterdir() if p.is_file() and p.name not in (".gitkeep", ".gitignore")]
+
+
 def main() -> int:
     errors: list[str] = []
     warnings: list[str] = []
@@ -35,44 +41,48 @@ def main() -> int:
         for ver_dir in sorted(p for p in course_dir.iterdir() if p.is_dir()):
             ver = ver_dir.name
             rel = ver_dir.relative_to(REPO_ROOT)
+            if ver.startswith("."):
+                continue
 
             if ver not in VERSIONS:
                 errors.append(f"{rel}: 未识别的版本目录（应为 2025/2027）")
                 continue
 
-            # 5. 能追溯到 version/<ver>.md
+            # 6. 可追溯到 version/<ver>.md
             if not (REPO_ROOT / "version" / f"{ver}.md").is_file():
                 errors.append(f"{rel}: 缺少 version/{ver}.md 场景说明")
 
-            # 4. 版本目录必须有 README.md
+            # 5. 版本目录必须有 README
             if not (ver_dir / "README.md").is_file():
                 errors.append(f"{rel}: 缺少 README.md 自查清单")
 
-            # 1. 必须有 大纲/ 和 教案/
+            # 1. 必须有 大纲/ 与 教案/ 目录
             for kind in ("大纲", "教案"):
                 kind_dir = ver_dir / kind
                 if not kind_dir.is_dir():
                     errors.append(f"{rel}: 缺少 {kind}/ 目录")
                     continue
 
-                md_files = sorted(kind_dir.glob("*.md"))
-                docx_files = sorted(kind_dir.glob("*.docx"))
-                if not md_files and not docx_files:
-                    warnings.append(f"{kind_dir.relative_to(REPO_ROOT)}: 尚未生成内容")
+                files = _content_files(kind_dir)
+                if not files:
+                    # 教案可为空（尚未生成），不报错
+                    if kind == "大纲":
+                        warnings.append(f"{kind_dir.relative_to(REPO_ROOT)}: 尚未生成内容")
                     continue
 
-                # 2. md/docx 成对
-                md_stems = {p.stem for p in md_files}
-                docx_stems = {p.stem for p in docx_files}
-                for stem in sorted(md_stems - docx_stems):
-                    errors.append(f"{kind_dir.relative_to(REPO_ROOT)}: {stem}.md 缺少同名 .docx")
-                for stem in sorted(docx_stems - md_stems):
-                    errors.append(f"{kind_dir.relative_to(REPO_ROOT)}: {stem}.docx 缺少同名 .md")
+                # 2. 命名不强制版本年前缀，此处不检查前缀
 
-                # 3. 版本前缀一致
-                for f in md_files + docx_files:
-                    if not f.name.startswith(ver + "-"):
-                        errors.append(f"{f.relative_to(REPO_ROOT)}: 文件名缺少 {ver}- 前缀")
+                # 3/4. md/docx 配对提醒
+                md_stems = {p.stem for p in files if p.suffix == ".md"}
+                docx_stems = {p.stem for p in files if p.suffix == ".docx"}
+                for stem in sorted(md_stems - docx_stems):
+                    warnings.append(
+                        f"{kind_dir.relative_to(REPO_ROOT)}: {stem}.md 缺同名 .docx（编译产物待生成）"
+                    )
+                for stem in sorted(docx_stems - md_stems):
+                    warnings.append(
+                        f"{kind_dir.relative_to(REPO_ROOT)}: {stem}.docx 缺同名 .md（事实源待补）"
+                    )
 
     for w in warnings:
         print("[警告]", w)
@@ -83,7 +93,7 @@ def main() -> int:
             print("  -", e)
         return 1
 
-    print("[结构自检通过] 版本目录原子完整、md/docx 成对、版本前缀一致。")
+    print("[结构自检通过] 版本目录原子完整。")
     return 0
 
 
