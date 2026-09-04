@@ -13,6 +13,7 @@
 """
 from __future__ import annotations
 
+import re
 import sys
 from pathlib import Path
 
@@ -84,6 +85,17 @@ def main() -> int:
                         f"{kind_dir.relative_to(REPO_ROOT)}: {stem}.docx 缺同名 .md（事实源待补）"
                     )
 
+    # major/ 引用层校验：每个专业引用的课程目录必须真实存在
+    major_root = REPO_ROOT / "major"
+    if major_root.is_dir():
+        for major_dir in sorted(p for p in major_root.iterdir() if p.is_dir()):
+            for ref_file in sorted(major_dir.glob("*.md")):
+                text = ref_file.read_text(encoding="utf-8", errors="replace")
+                # 匹配 markdown 链接 [..](..../course/<课程名>/...) 中的课程名
+                for m in re.findall(r"\]\(\.\./\.\./course/([^/)]+)/", text):
+                    if not (REPO_ROOT / "course" / m).is_dir():
+                        errors.append(f"{ref_file.relative_to(REPO_ROOT)}: 引用了不存在的课程 {m}")
+
     for w in warnings:
         print("[警告]", w)
 
@@ -93,7 +105,7 @@ def main() -> int:
             print("  -", e)
         return 1
 
-    print("[结构自检通过] 版本目录原子完整。")
+    print("[结构自检通过] 版本目录原子完整，major 引用有效。")
     return 0
 
 
