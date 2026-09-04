@@ -1,0 +1,407 @@
+{
+  "checked_on": "2026-09-05",
+  "artifact": "25JD32411-PLC技术与应用-课程教学大纲.docx",
+  "status": "PASS",
+  "compiler_chain": "current repository scripts only; no post-render finalizer",
+  "checks": [
+    {
+      "check": "repository_scripts_match_current_git_blobs",
+      "passed": true,
+      "details": {
+        "syllabus.py": "a48f9e8d1354c06d65259db6a55c779fd9405d37",
+        "render_school_syllabus.py": "760e98ebb7afbdcff49a813c034e330aedfd1560",
+        "validate_release.py": "1b4dcfc96dd30944d4a2d98448bd4b4987f374bd",
+        "inspect_docx.py": "7e06af4bba1c331326abe1f4d75720c8416ea341"
+      }
+    },
+    {
+      "check": "master_matches_current_renderer_generated_master",
+      "passed": true,
+      "details": {
+        "local_master_blob": "c3fd60648a5fef82811b1f8e9ca75c4c6e6d322b",
+        "generated_master_blob": "35701579d0f0b2e4d3d6669a67999be647e6e9c2"
+      }
+    },
+    {
+      "check": "repository_cli_check",
+      "passed": true,
+      "details": "PASS\n"
+    },
+    {
+      "check": "repository_cli_inspect",
+      "passed": true,
+      "details": "PASS\n"
+    },
+    {
+      "check": "curriculum_course_code",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "curriculum_title",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "curriculum_credits",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "curriculum_semester",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "curriculum_assessment",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "curriculum_hours",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "formal_college_normalization",
+      "passed": true,
+      "details": {
+        "offering_unit": {
+          "source": "机械学院",
+          "rendered": "机械与动力工程学院",
+          "basis": "学校学院全称白名单及本项目已确认学院名称"
+        }
+      }
+    },
+    {
+      "check": "official_direct_indicators",
+      "passed": true,
+      "details": [
+        "1.2",
+        "3.1",
+        "4.1",
+        "4.2",
+        "5.1",
+        "7.1",
+        "7.2",
+        "10.1",
+        "12.1",
+        "12.2"
+      ]
+    },
+    {
+      "check": "theory_hours_total",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "computer_hours_total",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "four_computer_tasks",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "task_hours_L01",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "task_hours_L02",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "task_hours_L03",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "task_hours_L04",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "task_unit_hour_mapping",
+      "passed": true,
+      "details": {
+        "U01": 2,
+        "U02": 2,
+        "U03": 4,
+        "U04": 2,
+        "U05": 2,
+        "U06": 4
+      }
+    },
+    {
+      "check": "eighteen_course_goals",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_goals_taught",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "overall_assessment_weights",
+      "passed": true,
+      "details": [
+        [
+          "A01",
+          "平时学习与过程记录",
+          15
+        ],
+        [
+          "A02",
+          "上机任务",
+          35
+        ],
+        [
+          "A03",
+          "综合设计成果",
+          40
+        ],
+        [
+          "A04",
+          "个人核验与答辩",
+          10
+        ]
+      ]
+    },
+    {
+      "check": "assessment_unit_columns",
+      "passed": true,
+      "details": {
+        "A01": [
+          10,
+          20,
+          20,
+          15,
+          15,
+          20
+        ],
+        "A02": [
+          10,
+          15,
+          25,
+          15,
+          10,
+          25
+        ],
+        "A03": [
+          10,
+          20,
+          20,
+          15,
+          15,
+          20
+        ],
+        "A04": [
+          10,
+          20,
+          20,
+          15,
+          15,
+          20
+        ]
+      }
+    },
+    {
+      "check": "detail_weights_A01",
+      "passed": true,
+      "details": [
+        40,
+        40,
+        20
+      ]
+    },
+    {
+      "check": "detail_weights_A02",
+      "passed": true,
+      "details": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    {
+      "check": "detail_weights_A03",
+      "passed": true,
+      "details": [
+        10,
+        20,
+        20,
+        15,
+        15,
+        20
+      ]
+    },
+    {
+      "check": "detail_weights_A04",
+      "passed": true,
+      "details": [
+        30,
+        50,
+        20
+      ]
+    },
+    {
+      "check": "selected_textbook_terminal_isbn",
+      "passed": true,
+      "details": "廖常初. S7-1200 PLC编程及应用（第5版）[M]. 北京：机械工业出版社，2026. ISBN 9787111797647"
+    },
+    {
+      "check": "college_full_name_in_markdown",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "hours_in_markdown",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "section_numbering",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "docx_table_dimensions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "school_basic_info_grid",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "nonbasic_markdown_table_count",
+      "passed": true,
+      "details": [
+        8,
+        8
+      ]
+    },
+    {
+      "check": "md_docx_table_text_1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "md_docx_table_text_2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "md_docx_table_text_3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "md_docx_table_text_4",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "md_docx_table_text_5",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "md_docx_table_text_6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "md_docx_table_text_7",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "md_docx_table_text_8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "no_comments",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "no_tracked_changes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "no_hidden_text",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "no_generation_markers",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "twip_grid_widths",
+      "passed": true,
+      "details": {
+        "min": 477,
+        "max": 5100
+      }
+    },
+    {
+      "check": "windows_fonts_only",
+      "passed": true,
+      "details": [
+        "Times New Roman",
+        "宋体",
+        "黑体"
+      ]
+    },
+    {
+      "check": "single_page_field",
+      "passed": true,
+      "details": 1
+    },
+    {
+      "check": "strict_visual_render_page_count",
+      "passed": true,
+      "details": 7
+    }
+  ],
+  "check_count": 51,
+  "commands": [
+    {
+      "command": "python scripts/syllabus.py check --input 25JD32411-PLC技术与应用-课程教学大纲.md",
+      "returncode": 0,
+      "stdout": "PASS",
+      "stderr": ""
+    },
+    {
+      "command": "python scripts/syllabus.py inspect --input 25JD32411-PLC技术与应用-课程教学大纲.docx",
+      "returncode": 0,
+      "stdout": "PASS",
+      "stderr": ""
+    }
+  ],
+  "visual_review": {
+    "page_count": 7,
+    "all_pages_inspected": true,
+    "observed": "No blank pages, obvious clipping, overlapping text, or tables outside the page observed in the strict repository render.",
+    "method": "/home/oai/skills/docx/render_docx.py render of the repository-rendered DOCX"
+  },
+  "limits": [
+    "No actual WPS or Microsoft Word client smoke-open was performed.",
+    "No PLC hardware, TIA Portal, PLCSIM or HMI engineering project was executed; this is syllabus validation only.",
+    "The curriculum relations labeled official_direct/visually_verified are inherited from the training-program repository; the original PDF matrix was not re-audited in this rerun.",
+    "No GitHub writes were performed."
+  ],
+  "git_writes_performed": false
+}
