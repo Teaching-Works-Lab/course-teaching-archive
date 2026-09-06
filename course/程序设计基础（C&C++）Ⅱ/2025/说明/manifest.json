@@ -1,0 +1,179 @@
+{
+  "course": "程序设计基础（C&C++）Ⅱ",
+  "course_code": "25JX31802",
+  "lesson_count": 24,
+  "markdown": "程序设计基础_C_C++_II_教案_24次课_最终版.md",
+  "images": [
+    {
+      "lesson": 1,
+      "title": "课程衔接、面向对象思想与 C++ 输入输出",
+      "source_media": "image21.png",
+      "file": "images/lesson-01-knowledge-map.png"
+    },
+    {
+      "lesson": 2,
+      "title": "内联函数、函数重载与默认参数",
+      "source_media": "image22.png",
+      "file": "images/lesson-02-knowledge-map.png"
+    },
+    {
+      "lesson": 3,
+      "title": "动态内存分配、释放与资源责任",
+      "source_media": "image23.png",
+      "file": "images/lesson-03-knowledge-map.png"
+    },
+    {
+      "lesson": 4,
+      "title": "基本文件操作与 C/C++ 基础迁移综合",
+      "source_media": "image24.png",
+      "file": "images/lesson-04-knowledge-map.png"
+    },
+    {
+      "lesson": 5,
+      "title": "类的定义、对象与访问控制",
+      "source_media": "image25.png",
+      "file": "images/lesson-05-knowledge-map.png"
+    },
+    {
+      "lesson": 6,
+      "title": "构造函数、析构函数与对象生命周期",
+      "source_media": "image26.png",
+      "file": "images/lesson-06-knowledge-map.png"
+    },
+    {
+      "lesson": 7,
+      "title": "重载构造与复制构造",
+      "source_media": "image27.png",
+      "file": "images/lesson-07-knowledge-map.png"
+    },
+    {
+      "lesson": 8,
+      "title": "对象数组、对象指针与类类型传参",
+      "source_media": "image28.png",
+      "file": "images/lesson-08-knowledge-map.png"
+    },
+    {
+      "lesson": 9,
+      "title": "this 指针、静态成员与友元",
+      "source_media": "image29.png",
+      "file": "images/lesson-09-knowledge-map.png"
+    },
+    {
+      "lesson": 10,
+      "title": "类的组合、初始化释放顺序与常对象",
+      "source_media": "image30.png",
+      "file": "images/lesson-10-knowledge-map.png"
+    },
+    {
+      "lesson": 11,
+      "title": "类与对象综合设计：封装、生命周期与组合",
+      "source_media": "image31.png",
+      "file": "images/lesson-11-knowledge-map.png"
+    },
+    {
+      "lesson": 12,
+      "title": "派生类概念、公有继承与访问规则",
+      "source_media": "image32.png",
+      "file": "images/lesson-12-knowledge-map.png"
+    },
+    {
+      "lesson": 13,
+      "title": "派生类构造析构、protected 与同名成员",
+      "source_media": "image33.png",
+      "file": "images/lesson-13-knowledge-map.png"
+    },
+    {
+      "lesson": 14,
+      "title": "公有/保护/私有继承与继承组合选择",
+      "source_media": "image34.png",
+      "file": "images/lesson-14-knowledge-map.png"
+    },
+    {
+      "lesson": 15,
+      "title": "多继承与二义性",
+      "source_media": "image35.png",
+      "file": "images/lesson-15-knowledge-map.png"
+    },
+    {
+      "lesson": 16,
+      "title": "虚基类、菱形继承与类层次综合重构",
+      "source_media": "image36.png",
+      "file": "images/lesson-16-knowledge-map.png"
+    },
+    {
+      "lesson": 17,
+      "title": "多态概念与赋值兼容规则",
+      "source_media": "image37.png",
+      "file": "images/lesson-17-knowledge-map.png"
+    },
+    {
+      "lesson": 18,
+      "title": "运算符重载与自定义类型表达",
+      "source_media": "image38.png",
+      "file": "images/lesson-18-knowledge-map.png"
+    },
+    {
+      "lesson": 19,
+      "title": "虚函数、覆盖与动态绑定",
+      "source_media": "image39.png",
+      "file": "images/lesson-19-knowledge-map.png"
+    },
+    {
+      "lesson": 20,
+      "title": "基类指针/引用与统一接口设计",
+      "source_media": "image40.png",
+      "file": "images/lesson-20-knowledge-map.png"
+    },
+    {
+      "lesson": 21,
+      "title": "多态综合设计：运算符、虚函数与扩展性",
+      "source_media": "image41.png",
+      "file": "images/lesson-21-knowledge-map.png"
+    },
+    {
+      "lesson": 22,
+      "title": "函数模板与类模板",
+      "source_media": "image42.png",
+      "file": "images/lesson-22-knowledge-map.png"
+    },
+    {
+      "lesson": 23,
+      "title": "命名空间与异常处理基本流程",
+      "source_media": "image43.png",
+      "file": "images/lesson-23-knowledge-map.png"
+    },
+    {
+      "lesson": 24,
+      "title": "综合重构：模板、命名空间、异常与面向对象设计",
+      "source_media": "image44.png",
+      "file": "images/lesson-24-knowledge-map.png"
+    }
+  ],
+  "sha256": {
+    "程序设计基础_C_C++_II_教案_24次课_最终版.md": "888b15261ae358063335fd409c4756b397019cc67f93ec86ed0ab9e69df8802f",
+    "images/lesson-01-knowledge-map.png": "930ddb3fddba18065e6b4cfaacc867cadf510f37af2e3b770a3cb7ecb8a396c8",
+    "images/lesson-02-knowledge-map.png": "e228e3697aaf15c5f923bdb04ffc02fc8f22b4d3e6f8dfa2ed9dee4b225e1386",
+    "images/lesson-03-knowledge-map.png": "ed9645a92a276991e6a20eb5052ce41fd2ad329d429179f24749c85ce99f0ca1",
+    "images/lesson-04-knowledge-map.png": "224b827ee9a23b3867e054f976ce17add574f59cb005d6322437656c9fdf5cbd",
+    "images/lesson-05-knowledge-map.png": "aa04f461a6cf449aa1055efba058e48e1fd2a7d8862cd68c35901cebd0928425",
+    "images/lesson-06-knowledge-map.png": "c33182ee24d92b9f26e4c74595aedd28527072c803dc82b29b6689c8c577cf18",
+    "images/lesson-07-knowledge-map.png": "b414276762940ff3c4fb30946678eb0efa604ba2abd5c44f7a7869d6ebb93c31",
+    "images/lesson-08-knowledge-map.png": "fb87d1f4c42970304e4de9ca5dce2ce00488bc0d7d0de7addea2c77bf24d5d9f",
+    "images/lesson-09-knowledge-map.png": "717db256898c01cd8f345fd74382c079898806211ec2b819b49d15e08d797dd6",
+    "images/lesson-10-knowledge-map.png": "99eae22e2a1c45273265a425b65a20795c8aab598f47440031ca0d139b9c73e9",
+    "images/lesson-11-knowledge-map.png": "95fefef9b19634a9c12bfbc045cfb0ccd38cf13037f34a3ff856262f4310ac67",
+    "images/lesson-12-knowledge-map.png": "8673075b332d853863229da05666dece87e53ab3f16b5020e9e9e87995a26c84",
+    "images/lesson-13-knowledge-map.png": "0290adc0d85fbc96e33466fcb42076a301845b1ec7860f38f9721a994514a238",
+    "images/lesson-14-knowledge-map.png": "83764bf4e4caa4c853cfe0d1888b23a208df6920fe4e26a3dd5f348649e4518e",
+    "images/lesson-15-knowledge-map.png": "b1e57c4a632fd41eb8c15b0c84d9e4046559df0701bac2b19988606607bb74c9",
+    "images/lesson-16-knowledge-map.png": "e586475038c706fbfe1eeead964e9b2cd1a56bc0337191e3d1386d97d375b842",
+    "images/lesson-17-knowledge-map.png": "da31678aa8d650c9fd7275fa37bc22241749a05330cbeaaa84cf32838ce0f6b5",
+    "images/lesson-18-knowledge-map.png": "e357119d270c6c4c11f46da7d3bfe6ab97658cd3c346e2ee11b64ca765ed5cd2",
+    "images/lesson-19-knowledge-map.png": "c71cb5f9ae6c59ee6d7805dc8195815340df0a96fe27c6e84d9fdbd124d82dc6",
+    "images/lesson-20-knowledge-map.png": "0892bd7b4a342607ca35fbbe7a5222b8332f67621d44ffa2006a1899bd38dcf9",
+    "images/lesson-21-knowledge-map.png": "0a2ddf4550965d644b9dfc47e9d1600ff1cc8b9a71a2e637583815f19b1188fb",
+    "images/lesson-22-knowledge-map.png": "6d8d86390e94baf95203d13041527da72af0f6e4db4dbee915c7a6276c97abae",
+    "images/lesson-23-knowledge-map.png": "8ee1a809df5226735c8bc51c793b7d32f114131caadf2fdd1ee7dd1c643b2d4b",
+    "images/lesson-24-knowledge-map.png": "24216f5d1a69d317e5d7a35057cabd7d4d6bac987d9ea3cecdc71f16e5edb586"
+  }
+}
