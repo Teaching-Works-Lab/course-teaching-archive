@@ -1,0 +1,217 @@
+{
+  "course_name": "数据结构（C）",
+  "course_code": "25JX21800",
+  "canonical_markdown": "25JX21800-数据结构（C）-教案.md",
+  "lesson_count": 20,
+  "hours": {
+    "total": 40,
+    "theory": 24,
+    "computer": 16
+  },
+  "assessment": "平时成绩20% + 课程作业20% + 期末闭卷考试60%",
+  "template_contract": "Teaching-Works-Lab/lesson-plan-compiler word-layout-rules.md (main, 2026-09-07 fetched)",
+  "lessons": [
+    {
+      "id": "lesson-01",
+      "title": "数据结构、逻辑关系与抽象数据类型",
+      "type": "理论2",
+      "image": "images/lesson-01-knowledge-map.png"
+    },
+    {
+      "id": "lesson-02",
+      "title": "算法复杂度与Python性能实验",
+      "type": "理论2",
+      "image": "images/lesson-02-knowledge-map.png"
+    },
+    {
+      "id": "lesson-03",
+      "title": "线性表与顺序存储：从接口到Python列表",
+      "type": "理论2",
+      "image": "images/lesson-03-knowledge-map.png"
+    },
+    {
+      "id": "lesson-04",
+      "title": "单链表、双链表与结构不变量",
+      "type": "理论2",
+      "image": "images/lesson-04-knowledge-map.png"
+    },
+    {
+      "id": "lesson-05",
+      "title": "LinkedList接口实现与边界测试",
+      "type": "上机2",
+      "image": "images/lesson-05-knowledge-map.png"
+    },
+    {
+      "id": "lesson-06",
+      "title": "线性结构性能基准与实现复核",
+      "type": "上机2",
+      "image": "images/lesson-06-knowledge-map.png"
+    },
+    {
+      "id": "lesson-07",
+      "title": "栈、队列与优先队列：受限线性结构",
+      "type": "理论2",
+      "image": "images/lesson-07-knowledge-map.png"
+    },
+    {
+      "id": "lesson-08",
+      "title": "递归、调用栈与显式栈转换",
+      "type": "理论2",
+      "image": "images/lesson-08-knowledge-map.png"
+    },
+    {
+      "id": "lesson-09",
+      "title": "栈、循环队列与表达式处理实现",
+      "type": "上机2",
+      "image": "images/lesson-09-knowledge-map.png"
+    },
+    {
+      "id": "lesson-10",
+      "title": "递归/迭代搜索与生产任务调度",
+      "type": "上机2",
+      "image": "images/lesson-10-knowledge-map.png"
+    },
+    {
+      "id": "lesson-11",
+      "title": "树、二叉树与遍历：从层次关系到递归结构",
+      "type": "理论2",
+      "image": "images/lesson-11-knowledge-map.png"
+    },
+    {
+      "id": "lesson-12",
+      "title": "二叉搜索树、堆、哈夫曼与优先调度",
+      "type": "理论2",
+      "image": "images/lesson-12-knowledge-map.png"
+    },
+    {
+      "id": "lesson-13",
+      "title": "二叉树与BST实现、遍历和可视化",
+      "type": "上机2",
+      "image": "images/lesson-13-knowledge-map.png"
+    },
+    {
+      "id": "lesson-14",
+      "title": "堆、优先任务与BOM层次应用",
+      "type": "上机2",
+      "image": "images/lesson-14-knowledge-map.png"
+    },
+    {
+      "id": "lesson-15",
+      "title": "图的表示、DFS与BFS",
+      "type": "理论2",
+      "image": "images/lesson-15-knowledge-map.png"
+    },
+    {
+      "id": "lesson-16",
+      "title": "Dijkstra最短路径与图算法应用",
+      "type": "理论2",
+      "image": "images/lesson-16-knowledge-map.png"
+    },
+    {
+      "id": "lesson-17",
+      "title": "查找、二分与散列：从索引到冲突处理",
+      "type": "理论2",
+      "image": "images/lesson-17-knowledge-map.png"
+    },
+    {
+      "id": "lesson-18",
+      "title": "排序算法、稳定性与工程选择",
+      "type": "理论2",
+      "image": "images/lesson-18-knowledge-map.png"
+    },
+    {
+      "id": "lesson-19",
+      "title": "图建模、DFS/BFS与Dijkstra交叉验证",
+      "type": "上机2",
+      "image": "images/lesson-19-knowledge-map.png"
+    },
+    {
+      "id": "lesson-20",
+      "title": "散列、排序基准与智能制造综合数据任务",
+      "type": "上机2",
+      "image": "images/lesson-20-knowledge-map.png"
+    }
+  ],
+  "files": [
+    {
+      "path": "images/lesson-01-knowledge-map.png",
+      "sha256": "dee79e0a731f19a9275fc4fd4f0bf70825f0a5861c2e6b2726177de6fe4dd9ec"
+    },
+    {
+      "path": "images/lesson-02-knowledge-map.png",
+      "sha256": "dee2d83dc83169877985d1b0ea5b1b66f0f9ff750ae3b031b12c836b59cd407b"
+    },
+    {
+      "path": "images/lesson-03-knowledge-map.png",
+      "sha256": "19124db387ce95e01d13522dd5f418de37e4bd4871aa31ce04b660a319f84b5f"
+    },
+    {
+      "path": "images/lesson-04-knowledge-map.png",
+      "sha256": "ad91402b4dfd96ec9bad3fdca48881c15e0e43ad0b4a44a70855a7740cec260c"
+    },
+    {
+      "path": "images/lesson-05-knowledge-map.png",
+      "sha256": "1cf7bb07b208fe6083b6bea5dd8d6b8dc0485176280b7d20d1af8a0e9d4c7e17"
+    },
+    {
+      "path": "images/lesson-06-knowledge-map.png",
+      "sha256": "ac534268bf7f9a3a300e619aeb5460805c2a2006cb3ff9d990e7bcda1a3487fd"
+    },
+    {
+      "path": "images/lesson-07-knowledge-map.png",
+      "sha256": "b7417d2d77eaa1ddfa69a6f48b21032c41a750f21f1c90a261c2093219c24215"
+    },
+    {
+      "path": "images/lesson-08-knowledge-map.png",
+      "sha256": "a8b623a04e31b802402f0b4d34f410c9e39d5b81437735ab92c59762ebf4eafc"
+    },
+    {
+      "path": "images/lesson-09-knowledge-map.png",
+      "sha256": "6cf3e36bfc6bfdbeac425c4b0aec1d8e4ac0f95f4cedb1086f032bb871ac68bf"
+    },
+    {
+      "path": "images/lesson-10-knowledge-map.png",
+      "sha256": "8a9e9e5d580f8c76db66b9813b41431b03ed14d5e6d18c848e4bcffa0a060128"
+    },
+    {
+      "path": "images/lesson-11-knowledge-map.png",
+      "sha256": "c385ec06e8eab50eb6834b88a9d157a2a960b24ebb14959734666a32992fb064"
+    },
+    {
+      "path": "images/lesson-12-knowledge-map.png",
+      "sha256": "a6d40cb404a24e06735ee719c08b6ebcd3190526f2d25e0d553c0535fd6a6d9b"
+    },
+    {
+      "path": "images/lesson-13-knowledge-map.png",
+      "sha256": "945d88afb4dd31c087a2e2380f149037f42056fab45886c72034f921cd9edc33"
+    },
+    {
+      "path": "images/lesson-14-knowledge-map.png",
+      "sha256": "1ea493b8827d1a01fc942fdd39405a5d7e49ecdd3dda7b33ca330a648bc5a888"
+    },
+    {
+      "path": "images/lesson-15-knowledge-map.png",
+      "sha256": "28319d87a6a552190441c7934294a445791035dec641d4cddcbc4a94387f2ed5"
+    },
+    {
+      "path": "images/lesson-16-knowledge-map.png",
+      "sha256": "2f35219b58c856ea542e8f2e5db10dbed1723599f04c5122b82d2503b205d8c3"
+    },
+    {
+      "path": "images/lesson-17-knowledge-map.png",
+      "sha256": "3d62a2dd9ded462e0cf80eb60c32c7f24f0bc21c2a66cd26a258adb45767cdcc"
+    },
+    {
+      "path": "images/lesson-18-knowledge-map.png",
+      "sha256": "8ca4e5675918335820183ba837f021298dbdeea846ff4e900c040a870648ab12"
+    },
+    {
+      "path": "images/lesson-19-knowledge-map.png",
+      "sha256": "1f58c766857b01a7c60e82fad65c1da341babb0126b26cf2262d9d9eae13fb33"
+    },
+    {
+      "path": "images/lesson-20-knowledge-map.png",
+      "sha256": "d93d79a4d660dffdf11bc7ccfa065190864af6201b6f6146e50c346248230b77"
+    }
+  ]
+}
