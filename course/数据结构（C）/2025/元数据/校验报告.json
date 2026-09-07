@@ -1,0 +1,28 @@
+{
+  "course": "25JX21800 数据结构（C）",
+  "result": "PASS",
+  "assessment_interpretation": "将用户所说“二二四”按有效总评解释为平时20%+课程作业20%+综合项目20%+期末闭卷考试40%。",
+  "checks": {
+    "课程代码": true,
+    "课程名称": true,
+    "学分2.5": true,
+    "第5学期": true,
+    "40=24+16": true,
+    "Python主线": true,
+    "18目标闭环": true,
+    "总评100": true,
+    "平时内部100": true,
+    "作业内部100": true,
+    "项目内部100": true,
+    "期末内部100": true,
+    "期末闭卷": true,
+    "教材ISBN无句号": true,
+    "首表12x8": true,
+    "视觉回归7页": true
+  },
+  "visual_qa": {
+    "pages": 7,
+    "result": "PASS",
+    "notes": "逐页检查，无明显裁切、重叠、缺字或异常空白页。"
+  }
+}
