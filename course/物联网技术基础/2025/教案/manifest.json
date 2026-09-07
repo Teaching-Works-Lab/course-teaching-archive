@@ -1,0 +1,154 @@
+{
+  "course": {
+    "name": "物联网技术基础",
+    "code": "25JD32414",
+    "hours": 32,
+    "theory_hours": 32,
+    "lab_hours": 0
+  },
+  "canonical_markdown": "物联网技术基础_教案_16次课_最终版.md",
+  "lesson_count": 16,
+  "syllabus": {
+    "path": "course/物联网技术基础/2025/大纲/25JD32414-物联网技术基础-课程教学大纲.md",
+    "sha": "事实源位于Teaching-Works-Lab/course-teaching-archive主分支，2026年9月定稿",
+    "updated": "2026年9月",
+    "version": "2025版目录现行定稿"
+  },
+  "template_identifier": "机械测试技术教案学校教学设计布局基线（仅作Word视觉格式模板）",
+  "course_map": "images/course-knowledge-map.png",
+  "lessons": [
+    {
+      "no": 1,
+      "type": "理论",
+      "unit": "第一单元 物联网概念、体系结构与标准化",
+      "title": "物联网概念、三层/四层体系与端—边—云架构",
+      "image": "images/lesson-01-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业（第一单元15%内部份额）＋期末考核；目标1.1、2.1、3.1。"
+    },
+    {
+      "no": 2,
+      "type": "理论",
+      "unit": "第一单元 物联网概念、体系结构与标准化",
+      "title": "物联网、互联网、工业互联网与CPS：边界、标准与系统评价",
+      "image": "images/lesson-02-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业（第一单元15%内部份额）＋期末考核；目标1.1、2.1、3.1。"
+    },
+    {
+      "no": 3,
+      "type": "理论",
+      "unit": "第二单元 感知、识别与设备数据",
+      "title": "传感器、执行器、采样与设备数据字段",
+      "image": "images/lesson-03-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业（第二单元20%内部份额）＋期末考核；目标1.2、2.2、3.2。"
+    },
+    {
+      "no": 4,
+      "type": "理论",
+      "unit": "第二单元 感知、识别与设备数据",
+      "title": "RFID/EPC、二维码、定位与无线传感器网络",
+      "image": "images/lesson-04-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业（第二单元20%内部份额）＋期末考核；目标1.2、2.2、3.2。"
+    },
+    {
+      "no": 5,
+      "type": "理论",
+      "unit": "第二单元 感知、识别与设备数据",
+      "title": "时间戳、缺失/异常、数据质量与感知方案评审",
+      "image": "images/lesson-05-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业（第二单元20%内部份额）＋期末考核；目标1.2、2.2、3.2。"
+    },
+    {
+      "no": 6,
+      "type": "理论",
+      "unit": "第三单元 连接技术、网络与组网",
+      "title": "TCP/IP、IPv6、6LoWPAN、寻址、拓扑与网关",
+      "image": "images/lesson-06-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业（第三单元20%内部份额）＋期末考核；目标1.3、2.3、3.3。"
+    },
+    {
+      "no": 7,
+      "type": "理论",
+      "unit": "第三单元 连接技术、网络与组网",
+      "title": "Wi-Fi、BLE、Zigbee/Thread：短距连接与组网权衡",
+      "image": "images/lesson-07-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业（第三单元20%内部份额）＋期末考核；目标1.3、2.3、3.3。"
+    },
+    {
+      "no": 8,
+      "type": "理论",
+      "unit": "第三单元 连接技术、网络与组网",
+      "title": "LoRaWAN、NB-IoT/蜂窝物联与混合组网方案",
+      "image": "images/lesson-08-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业（第三单元20%内部份额）＋期末考核；目标1.3、2.3、3.3。"
+    },
+    {
+      "no": 9,
+      "type": "理论",
+      "unit": "第四单元 应用协议、边缘计算与物联网平台",
+      "title": "MQTT发布/订阅、主题树、QoS与离线重连",
+      "image": "images/lesson-09-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业（第四单元20%内部份额）＋期末考核；目标1.4、2.4、3.4。"
+    },
+    {
+      "no": 10,
+      "type": "理论",
+      "unit": "第四单元 应用协议、边缘计算与物联网平台",
+      "title": "CoAP、HTTP/REST、JSON与设备模型/资源接口",
+      "image": "images/lesson-10-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业（第四单元20%内部份额）＋期末考核；目标1.4、2.4、3.4。"
+    },
+    {
+      "no": 11,
+      "type": "理论",
+      "unit": "第四单元 应用协议、边缘计算与物联网平台",
+      "title": "边缘网关、缓存/过滤/聚合、云平台与规则告警",
+      "image": "images/lesson-11-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业（第四单元20%内部份额）＋期末考核；目标1.4、2.4、3.4。"
+    },
+    {
+      "no": 12,
+      "type": "理论",
+      "unit": "第五单元 工业物联网与智能制造集成",
+      "title": "工业网关、Modbus TCP、OPC UA与协议转换",
+      "image": "images/lesson-12-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业（第五单元15%内部份额）＋期末考核；目标1.5、2.5、3.1、3.4。"
+    },
+    {
+      "no": 13,
+      "type": "理论",
+      "unit": "第五单元 工业物联网与智能制造集成",
+      "title": "设备状态、能耗、追溯、仓储与预测维护的端到端场景",
+      "image": "images/lesson-13-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业（第五单元15%内部份额）＋期末考核；目标1.5、2.5、3.1、3.4。"
+    },
+    {
+      "no": 14,
+      "type": "理论",
+      "unit": "第五单元 工业物联网与智能制造集成",
+      "title": "MES/平台接口、时间与语义一致性、互操作和故障隔离",
+      "image": "images/lesson-14-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业（第五单元15%内部份额）＋期末考核；目标1.5、2.5、3.1、3.4。"
+    },
+    {
+      "no": 15,
+      "type": "理论",
+      "unit": "第六单元 物联网安全、治理与综合方案",
+      "title": "物联网资产、身份、访问、加密、固件与网络分区",
+      "image": "images/lesson-15-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业（第六单元10%内部份额）＋期末考核；目标1.6、2.6、3.5、3.6。"
+    },
+    {
+      "no": 16,
+      "type": "理论",
+      "unit": "第六单元 物联网安全、治理与综合方案",
+      "title": "威胁建模、隐私/日志/运维与智能制造物联网综合方案评审",
+      "image": "images/lesson-16-knowledge-map.png",
+      "assessment": "课程作业（第六单元10%内部份额）＋期末综合考核60%；目标1.1—1.6、2.1—2.6、3.1—3.6。"
+    }
+  ],
+  "files": {
+    "物联网技术基础_教案_16次课_最终版.md": "adb445f58bfdb539e1713f1ddc5210feb5efb975f36da1f5c2f82c75ab7c159f",
+    "docx": "844dce704b2a5ad13d62113acdd60b0e6d5f721495ee236c4d72a932b31f0755",
+    "images_count": 17
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "course": {
+    "name": "智能测试技术",
+    "code": "25JD21407",
+    "hours": 48,
+    "theory_hours": 40,
+    "lab_hours": 8
+  },
+  "canonical_markdown": "智能测试技术_教案_24次课_最终版.md",
+  "lesson_count": 24,
+  "syllabus": {
+    "repository": "Teaching-Works-Lab/course-teaching-archive",
+    "path": "course/智能测试技术/2025/大纲/25JD21407-智能测试技术-课程教学大纲.md",
+    "updated": "2026年9月",
+    "version": "2025版目录现行定稿"
+  },
+  "visual_baseline": "机械测试技术教案.docx（仅作学校教学设计版式基线，不作内容事实源）",
+  "course_map": "images/course-knowledge-map.png",
+  "lessons": [
+    {
+      "no": 1,
+      "type": "理论",
+      "unit": "第一单元 智能测试基础、误差与不确定度",
+      "title": "智能测试任务、测试链与量值溯源",
+      "image": "images/lesson-01-knowledge-map.png",
+      "assessment": "平时成绩；目标1.1、2.1、3.1。"
+    },
+    {
+      "no": 2,
+      "type": "理论",
+      "unit": "第一单元 智能测试基础、误差与不确定度",
+      "title": "误差、静态性能、不确定度与测试方案预算",
+      "image": "images/lesson-02-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业；目标1.1、2.1、3.1。"
+    },
+    {
+      "no": 3,
+      "type": "理论",
+      "unit": "第二单元 工程信号、采样与时频分析",
+      "title": "工程信号分类与时域统计特征",
+      "image": "images/lesson-03-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业；目标1.2、2.2、3.2。"
+    },
+    {
+      "no": 4,
+      "type": "理论",
+      "unit": "第二单元 工程信号、采样与时频分析",
+      "title": "卷积、相关与时延/周期特征分析",
+      "image": "images/lesson-04-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业；目标1.2、2.2、3.2。"
+    },
+    {
+      "no": 5,
+      "type": "理论",
+      "unit": "第二单元 工程信号、采样与时频分析",
+      "title": "傅里叶变换、FFT、幅值谱与功率谱",
+      "image": "images/lesson-05-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业；目标1.2、2.2、3.2。"
+    },
+    {
+      "no": 6,
+      "type": "理论",
+      "unit": "第二单元 工程信号、采样与时频分析",
+      "title": "采样、混叠、窗函数、频谱泄漏与数字滤波",
+      "image": "images/lesson-06-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业；目标1.2、2.2、3.2。"
+    },
+    {
+      "no": 7,
+      "type": "理论",
+      "unit": "第三单元 测试系统静动态特性与标定",
+      "title": "测试系统模型、线性时不变与静态标定",
+      "image": "images/lesson-07-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业；目标1.3、2.3、3.3。"
+    },
+    {
+      "no": 8,
+      "type": "理论",
+      "unit": "第三单元 测试系统静动态特性与标定",
+      "title": "一阶系统时间常数、阶跃响应与动态误差",
+      "image": "images/lesson-08-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业；目标1.3、2.3、3.3。"
+    },
+    {
+      "no": 9,
+      "type": "理论",
+      "unit": "第三单元 测试系统静动态特性与标定",
+      "title": "二阶系统固有频率、阻尼、频率响应与动态不失真",
+      "image": "images/lesson-09-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业；目标1.3、2.3、3.3。"
+    },
+    {
+      "no": 10,
+      "type": "实验",
+      "unit": "实验一 传感器静态标定与测量不确定度",
+      "title": "实验一：传感器静态标定与测量不确定度",
+      "image": "images/lesson-10-knowledge-map.png",
+      "assessment": "课程作业；实验一正式证据；目标1.1、1.3、1.4、2.1、2.3、2.4、3.1、3.3、3.4。"
+    },
+    {
+      "no": 11,
+      "type": "理论",
+      "unit": "第四单元 传感器、信号调理与典型机械量测量",
+      "title": "传感器选型、电阻应变式与电桥调理",
+      "image": "images/lesson-11-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业＋期末考核；目标1.4、2.4、3.4。"
+    },
+    {
+      "no": 12,
+      "type": "理论",
+      "unit": "第四单元 传感器、信号调理与典型机械量测量",
+      "title": "电感/电容式传感器与位移测量",
+      "image": "images/lesson-12-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业＋期末考核；目标1.4、2.4、3.4。"
+    },
+    {
+      "no": 13,
+      "type": "理论",
+      "unit": "第四单元 传感器、信号调理与典型机械量测量",
+      "title": "压电/磁电/霍尔/光电传感器与转速/振动测量",
+      "image": "images/lesson-13-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业＋期末考核；目标1.4、2.4、3.4。"
+    },
+    {
+      "no": 14,
+      "type": "理论",
+      "unit": "第四单元 传感器、信号调理与典型机械量测量",
+      "title": "温度传感器、接触/非接触测温与工程误差",
+      "image": "images/lesson-14-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业＋期末考核；目标1.4、2.4、3.4。"
+    },
+    {
+      "no": 15,
+      "type": "理论",
+      "unit": "第四单元 传感器、信号调理与典型机械量测量",
+      "title": "信号调理：放大、滤波、隔离、线性化、接地与屏蔽",
+      "image": "images/lesson-15-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业＋期末考核；目标1.4、2.4、3.4。"
+    },
+    {
+      "no": 16,
+      "type": "实验",
+      "unit": "实验二 测试系统动态响应与信号调理",
+      "title": "实验二：测试系统动态响应与信号调理",
+      "image": "images/lesson-16-knowledge-map.png",
+      "assessment": "课程作业；实验二正式证据；目标1.3、1.4、2.3、2.4、3.3、3.4。"
+    },
+    {
+      "no": 17,
+      "type": "理论",
+      "unit": "第五单元 数据采集、计算机测试与智能仪器",
+      "title": "采样保持、A/D转换、量化与采集通道配置",
+      "image": "images/lesson-17-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业＋期末考核；目标1.5、2.5、3.5。"
+    },
+    {
+      "no": 18,
+      "type": "理论",
+      "unit": "第五单元 数据采集、计算机测试与智能仪器",
+      "title": "多通道同步、触发、缓存、时间戳与元数据",
+      "image": "images/lesson-18-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业＋期末考核；目标1.5、2.5、3.5。"
+    },
+    {
+      "no": 19,
+      "type": "理论",
+      "unit": "第五单元 数据采集、计算机测试与智能仪器",
+      "title": "计算机测试、虚拟仪器、智能仪器与测试软件架构",
+      "image": "images/lesson-19-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业＋期末考核；目标1.5、2.5、3.5。"
+    },
+    {
+      "no": 20,
+      "type": "实验",
+      "unit": "实验三 振动信号采集、采样与FFT分析",
+      "title": "实验三：振动信号采集、采样与FFT分析",
+      "image": "images/lesson-20-knowledge-map.png",
+      "assessment": "课程作业；实验三正式证据；目标1.2、1.5、2.2、2.5、3.2、3.5。"
+    },
+    {
+      "no": 21,
+      "type": "理论",
+      "unit": "第六单元 智能感知、多源融合与状态识别",
+      "title": "智能传感、边缘处理与特征工程",
+      "image": "images/lesson-21-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业＋期末考核；目标1.6、2.6、3.6。"
+    },
+    {
+      "no": 22,
+      "type": "理论",
+      "unit": "第六单元 智能感知、多源融合与状态识别",
+      "title": "特征选择、PCA降维与多传感信息融合",
+      "image": "images/lesson-22-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业＋期末考核；目标1.6、2.6、3.6。"
+    },
+    {
+      "no": 23,
+      "type": "理论",
+      "unit": "第六单元 智能感知、多源融合与状态识别",
+      "title": "k近邻/SVM基础分类、混淆矩阵与人工复核",
+      "image": "images/lesson-23-knowledge-map.png",
+      "assessment": "平时成绩＋课程作业＋期末考核；目标1.6、2.6、3.6。"
+    },
+    {
+      "no": 24,
+      "type": "实验",
+      "unit": "实验四 多传感数据融合与异常状态识别",
+      "title": "实验四：多传感数据融合与异常状态识别",
+      "image": "images/lesson-24-knowledge-map.png",
+      "assessment": "课程作业；实验四正式证据；目标1.6、2.6、3.6。"
+    }
+  ],
+  "files": {
+    "智能测试技术_教案_24次课_最终版.md": "37d3919c9a0ad116a03481271b107aeb648c0aa4a2d434edc451c950feb5fe6a",
+    "docx": "801028f35b2ac27f3decfe15eb06caa66664a65db312372f13336a55f165b000",
+    "images_count": 25
+  }
+}

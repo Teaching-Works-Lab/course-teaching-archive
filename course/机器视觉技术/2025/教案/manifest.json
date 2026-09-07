@@ -1,0 +1,149 @@
+{
+  "course": {
+    "name": "机器视觉技术",
+    "english": "Machine Vision Technology",
+    "code": "25JD32405",
+    "category": "专业类",
+    "nature": "选修",
+    "language": "中文",
+    "semester": "第7学期",
+    "credits": "2",
+    "hours_total": 32,
+    "hours_theory": 32,
+    "hours_exp": 0,
+    "hours_lab": 0,
+    "hours_other": 0,
+    "major": "智能制造工程",
+    "college": "机械与动力工程学院",
+    "prereq": "程序设计基础（C&C++）Ⅱ、工程建模与科学计算可视化基础（Python）",
+    "followup": "毕业设计（论文）",
+    "textbook": "何文辉、葛大伟.《机器视觉技术与应用》[M]. 北京：机械工业出版社，2024. ISBN 9787111763048",
+    "assessment": "最终成绩100%=平时成绩20%＋课程作业20%＋期末考核60%；期末考核采用机器视觉综合方案/项目报告（或等效作品）＋现场答辩/个人核验，不另设笔试或机考。",
+    "syllabus_path": "course/机器视觉技术/2025/大纲/25JD32405-机器视觉技术-课程教学大纲.md",
+    "syllabus_sha": "cd100bf9dd06b85abdc5cbc10394f930d5973934",
+    "note_path": "course/机器视觉技术/2025/说明/25JD32405-机器视觉技术-依据与实施说明.md",
+    "note_sha": "15a237b72262f2deb3e32158a250e41575c962b9",
+    "skill_repo": "Teaching-Works-Lab/lesson-plan-compiler",
+    "skill_sha": "23bc5a10e7881e8863ad993c74dabdc9faf24a4d",
+    "updated": "2026年9月"
+  },
+  "document_state": "final_compiled",
+  "canonical_markdown": "机器视觉技术_教案_16次课_最终版.md",
+  "compiled_docx": "机器视觉技术_教案_16次课_最终版.docx",
+  "lesson_count": 16,
+  "hours": {
+    "total": 32,
+    "theory": 32,
+    "lab": 0
+  },
+  "images": 17,
+  "source": {
+    "syllabus_path": "course/机器视觉技术/2025/大纲/25JD32405-机器视觉技术-课程教学大纲.md",
+    "syllabus_sha": "cd100bf9dd06b85abdc5cbc10394f930d5973934",
+    "implementation_note_path": "course/机器视觉技术/2025/说明/25JD32405-机器视觉技术-依据与实施说明.md",
+    "implementation_note_sha": "15a237b72262f2deb3e32158a250e41575c962b9",
+    "skill_repo": "Teaching-Works-Lab/lesson-plan-compiler",
+    "skill_sha": "23bc5a10e7881e8863ad993c74dabdc9faf24a4d"
+  },
+  "unresolved_handling": {
+    "主讲教师": "Word封面留空，未虚构",
+    "职称": "Word封面留空，未虚构",
+    "制定日期": "Word留空，未把大纲定稿日期冒充教案制定日期",
+    "具体周次": "Word各课次周次栏留空，未推测"
+  },
+  "lesson_images": [
+    {
+      "lesson": 1,
+      "title": "机器视觉系统、工业任务与“成像—处理—判定”工作链",
+      "image": "images/lesson-01-knowledge-map.png"
+    },
+    {
+      "lesson": 2,
+      "title": "相机、镜头、光源与视场/分辨率/景深/曝光设计",
+      "image": "images/lesson-02-knowledge-map.png"
+    },
+    {
+      "lesson": 3,
+      "title": "数字图像、NumPy像素/ROI与BGR-RGB-HSV-灰度表示",
+      "image": "images/lesson-03-knowledge-map.png"
+    },
+    {
+      "lesson": 4,
+      "title": "直方图、亮度/对比度与成像质量对比",
+      "image": "images/lesson-04-knowledge-map.png"
+    },
+    {
+      "lesson": 5,
+      "title": "缩放/旋转/透视变换与均值/高斯/中值滤波",
+      "image": "images/lesson-05-knowledge-map.png"
+    },
+    {
+      "lesson": 6,
+      "title": "固定阈值、自适应阈值与Otsu分割",
+      "image": "images/lesson-06-knowledge-map.png"
+    },
+    {
+      "lesson": 7,
+      "title": "Canny边缘检测、梯度阈值与边缘质量评价",
+      "image": "images/lesson-07-knowledge-map.png"
+    },
+    {
+      "lesson": 8,
+      "title": "腐蚀/膨胀、开闭运算与粘连/断裂/孔洞修复",
+      "image": "images/lesson-08-knowledge-map.png"
+    },
+    {
+      "lesson": 9,
+      "title": "轮廓、层级、连通域与面积/周长/质心统计",
+      "image": "images/lesson-09-knowledge-map.png"
+    },
+    {
+      "lesson": 10,
+      "title": "外接几何、直线/圆检测与尺寸/位置/角度提取",
+      "image": "images/lesson-10-knowledge-map.png"
+    },
+    {
+      "lesson": 11,
+      "title": "尺度换算、标定概念、容差判定与重复性/误差分析",
+      "image": "images/lesson-11-knowledge-map.png"
+    },
+    {
+      "lesson": 12,
+      "title": "模板匹配、相似度图与尺度/旋转/遮挡鲁棒性",
+      "image": "images/lesson-12-knowledge-map.png"
+    },
+    {
+      "lesson": 13,
+      "title": "角点、ORB/SIFT局部特征、描述子匹配与几何验证",
+      "image": "images/lesson-13-knowledge-map.png"
+    },
+    {
+      "lesson": 14,
+      "title": "分类/目标检测/缺陷检测、数据标注划分与预训练模型推理",
+      "image": "images/lesson-14-knowledge-map.png"
+    },
+    {
+      "lesson": 15,
+      "title": "置信度、IoU、混淆矩阵、精确率/召回率与传统/学习型视觉比较",
+      "image": "images/lesson-15-knowledge-map.png"
+    },
+    {
+      "lesson": 16,
+      "title": "智能制造机器视觉综合方案：零件/装配/FDM打印场景与期末验收",
+      "image": "images/lesson-16-knowledge-map.png"
+    }
+  ],
+  "checksums": {
+    "机器视觉技术_教案_16次课_最终版.md": "4951d3d380684ce5b9cb67b66c3684d3b642b0a6a92a29e522fd4324fec49e85",
+    "机器视觉技术_教案_16次课_最终版.docx": "bbff441ccac2f507d1ed834730b4858e55e2bcbd81e146a73106e590f8ebbdf9",
+    "qa-report.md": "c2ace16b0a586ad27e7b8ae8216420c0397b4269538d36c45fa1731d24e06c04"
+  },
+  "qa": {
+    "status": "PASS",
+    "render_pages": 51,
+    "pages_visually_inspected": 51,
+    "knowledge_maps": 16,
+    "course_map": 1,
+    "report": "qa-report.md"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "course": "信息物理系统（CPS）",
+  "course_code": "25JD32417",
+  "canonical_markdown": "25JD32417-信息物理系统（CPS）-教案.md",
+  "lesson_count": 16,
+  "hours": {
+    "total": 32,
+    "theory": 32,
+    "experiment": 0,
+    "computer": 0,
+    "project": 0
+  },
+  "assessment": {
+    "平时成绩": 20,
+    "课程作业": 20,
+    "期末考核": 60
+  },
+  "lessons": [
+    {
+      "lesson": 1,
+      "title": "CPS概念、特征、边界与相关技术辨析",
+      "unit": "第一单元 CPS概念、架构与智能制造场景",
+      "image": "images/lesson-01-knowledge-map.png"
+    },
+    {
+      "lesson": 2,
+      "title": "计算—通信—控制—物理闭环与CPS架构分析",
+      "unit": "第一单元 CPS概念、架构与智能制造场景",
+      "image": "images/lesson-02-knowledge-map.png"
+    },
+    {
+      "lesson": 3,
+      "title": "状态、事件、迁移与有限状态机基础",
+      "unit": "第二单元 离散计算模型与状态机",
+      "image": "images/lesson-03-knowledge-map.png"
+    },
+    {
+      "lesson": 4,
+      "title": "输入输出、同步交互与执行轨迹",
+      "unit": "第二单元 离散计算模型与状态机",
+      "image": "images/lesson-04-knowledge-map.png"
+    },
+    {
+      "lesson": 5,
+      "title": "设备互锁、任务调度与故障恢复状态模型",
+      "unit": "第二单元 离散计算模型与状态机",
+      "image": "images/lesson-05-knowledge-map.png"
+    },
+    {
+      "lesson": 6,
+      "title": "状态变量、输入输出与常微分方程建模",
+      "unit": "第三单元 连续物理过程建模",
+      "image": "images/lesson-06-knowledge-map.png"
+    },
+    {
+      "lesson": 7,
+      "title": "平衡点、动态响应、参数敏感性与模型边界",
+      "unit": "第三单元 连续物理过程建模",
+      "image": "images/lesson-07-knowledge-map.png"
+    },
+    {
+      "lesson": 8,
+      "title": "混杂系统、离散模式与连续状态",
+      "unit": "第四单元 混杂系统与组合建模",
+      "image": "images/lesson-08-knowledge-map.png"
+    },
+    {
+      "lesson": 9,
+      "title": "混杂自动机：守卫、重置、不变量与模式切换",
+      "unit": "第四单元 混杂系统与组合建模",
+      "image": "images/lesson-09-knowledge-map.png"
+    },
+    {
+      "lesson": 10,
+      "title": "接口、并行/层次组合与组合冲突分析",
+      "unit": "第四单元 混杂系统与组合建模",
+      "image": "images/lesson-10-knowledge-map.png"
+    },
+    {
+      "lesson": 11,
+      "title": "从工程需求到安全性、活性与时序约束",
+      "unit": "第五单元 CPS需求、模型验证与安全",
+      "image": "images/lesson-11-knowledge-map.png"
+    },
+    {
+      "lesson": 12,
+      "title": "可达性、不变量、执行轨迹与反例",
+      "unit": "第五单元 CPS需求、模型验证与安全",
+      "image": "images/lesson-12-knowledge-map.png"
+    },
+    {
+      "lesson": 13,
+      "title": "死锁、不可达、越界、故障注入与修正复验",
+      "unit": "第五单元 CPS需求、模型验证与安全",
+      "image": "images/lesson-13-knowledge-map.png"
+    },
+    {
+      "lesson": 14,
+      "title": "智能制造CPS设计流程：感知、边缘、通信、控制与执行",
+      "unit": "第六单元 智能制造CPS设计与数字孪生",
+      "image": "images/lesson-14-knowledge-map.png"
+    },
+    {
+      "lesson": 15,
+      "title": "数字孪生、工业互联网、边缘计算与数据/时序约束",
+      "unit": "第六单元 智能制造CPS设计与数字孪生",
+      "image": "images/lesson-15-knowledge-map.png"
+    },
+    {
+      "lesson": 16,
+      "title": "综合CPS课程设计评审：模型、需求、验证与工程取舍",
+      "unit": "第六单元 智能制造CPS设计与数字孪生",
+      "image": "images/lesson-16-knowledge-map.png"
+    }
+  ],
+  "syllabus_source": "Teaching-Works-Lab/course-teaching-archive: course/信息物理系统（CPS）/2025/大纲/25JD32417-信息物理系统（CPS）-课程教学大纲.md",
+  "sha256": {
+    "25JD32417-信息物理系统（CPS）-教案.md": "30aad170f450a95197d40bdd0188d48cd4ad6c82cf5e66f7e62fa3fd73a6908b",
+    "images/lesson-01-knowledge-map.png": "f8031fd9972f5eb6198e12866d4801af6650bd4b804fff7b3af5521b085cb79b",
+    "images/lesson-02-knowledge-map.png": "f9501a65c12dac5c1d98fe21c0a9e469f3f1f4c2ef0f4f1293e8cabdd8bf2e89",
+    "images/lesson-03-knowledge-map.png": "06222052d8412d5da3e0fc03f994e9359dfb71e6323b37563ca3c1e1202c4020",
+    "images/lesson-04-knowledge-map.png": "c6844abc1ffd388681c6c2448db842a3b13cbe6b6fda59dd4d4f19ca17ec1da3",
+    "images/lesson-05-knowledge-map.png": "ee6701c32862b78b8d4bc4c3e262aaa782d1221af4955d91274692feb0956a30",
+    "images/lesson-06-knowledge-map.png": "b1ebce107dc3acecbe436d3c8462b8504b028dfd787c1fe8f409b71a4de438fc",
+    "images/lesson-07-knowledge-map.png": "48bab94f4d23d2396a2c05ab4f9405d03f6a17b1d69fc6c6878b8cafa87d3e69",
+    "images/lesson-08-knowledge-map.png": "f3bba706936edb6bb4de2efe2dbca9b05e3b85ca05847907dca150c9407d9da3",
+    "images/lesson-09-knowledge-map.png": "56a3ed5db84b128f96db110c36e24bd5de939b8e8597f16a96538900bc0db369",
+    "images/lesson-10-knowledge-map.png": "b6ffa620b2dc3cc3057384eda70a403b87129233467867ce327e6bcc652db260",
+    "images/lesson-11-knowledge-map.png": "d51b9041b31599e614b1531886915a7728ca216eff0d23b8b5ff91b663b6bd78",
+    "images/lesson-12-knowledge-map.png": "e6488368a550183db20858a9a4a8550124230abb90049d44808310e6bde7d97c",
+    "images/lesson-13-knowledge-map.png": "7099b8aa32a918690e8c482224d48fec4969e3f6bff31115ac877a7e5c596a7c",
+    "images/lesson-14-knowledge-map.png": "693ca17b286c542b8f7309a255759e2edccd3f5b9513267d372dfe9deb5d0427",
+    "images/lesson-15-knowledge-map.png": "988f3fec47e66122efc112520e3b98d8f9e48d1f4b9073b2de9963f10fa5b51c",
+    "images/lesson-16-knowledge-map.png": "d6931c6b1e8adc099db1d2335dd5daf5e519b7cb4ee88ed61c677dbdadbf1440"
+  }
+}

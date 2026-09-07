@@ -1,0 +1,286 @@
+{
+  "course": "机器人技术与应用（A）",
+  "course_code": "25JD31403",
+  "canonical_markdown": "25JD31403-机器人技术与应用（A）-教案.md",
+  "lesson_count": 28,
+  "hours": {
+    "total": 56,
+    "theory": 24,
+    "experiment": 8,
+    "computer": 16,
+    "project": 8
+  },
+  "assessment": {
+    "usual": 20,
+    "coursework": 20,
+    "final": 60,
+    "final_internal": {
+      "comprehensive_project": 42,
+      "final_exam": 58
+    }
+  },
+  "source": {
+    "repository": "Teaching-Works-Lab/course-teaching-archive",
+    "syllabus_path": "course/机器人技术与应用（A）/2025/大纲/25JD31403-机器人技术与应用（A）-课程教学大纲.md",
+    "syllabus_blob_sha": "c5ff93ace830bc10163d73ca59d983db1c4025d9",
+    "design_note_blob_sha": "fad08ec2d1d6d62944bb5fef5d207e3a28240c29"
+  },
+  "template": "25JD32417-信息物理系统（CPS）-教案.docx（学校教学设计版式基线，仅用于Word布局）",
+  "lessons": [
+    {
+      "no": 1,
+      "type": "理论",
+      "unit": "第一单元 机器人体系与空间数学",
+      "title": "机器人体系、构型谱系、性能指标与系统安全",
+      "image": "images/lesson-01-knowledge-map.png",
+      "assessment": "平时成绩；目标1.1、2.1、3.1。"
+    },
+    {
+      "no": 2,
+      "type": "理论",
+      "unit": "第一单元 机器人体系与空间数学",
+      "title": "刚体位姿、旋转表示与齐次变换",
+      "image": "images/lesson-02-knowledge-map.png",
+      "assessment": "平时成绩、课程作业；目标1.1、2.1、3.1。"
+    },
+    {
+      "no": 3,
+      "type": "理论",
+      "unit": "第二单元 串联机器人正逆运动学",
+      "title": "连杆关节、D-H参数与串联机器人模型",
+      "image": "images/lesson-03-knowledge-map.png",
+      "assessment": "平时成绩、课程作业；目标1.2、2.2、3.2。"
+    },
+    {
+      "no": 4,
+      "type": "理论",
+      "unit": "第二单元 串联机器人正逆运动学",
+      "title": "正运动学、工作空间与模型独立验证",
+      "image": "images/lesson-04-knowledge-map.png",
+      "assessment": "平时成绩、课程作业；目标1.2、2.2、3.2。"
+    },
+    {
+      "no": 5,
+      "type": "理论",
+      "unit": "第二单元 串联机器人正逆运动学",
+      "title": "逆运动学、多解、不可达与关节限位",
+      "image": "images/lesson-05-knowledge-map.png",
+      "assessment": "平时成绩、课程作业；目标1.2、2.2、3.2。"
+    },
+    {
+      "no": 6,
+      "type": "理论",
+      "unit": "第三单元 雅可比、轨迹、动力学与控制基础",
+      "title": "雅可比、速度/力映射与奇异性",
+      "image": "images/lesson-06-knowledge-map.png",
+      "assessment": "平时成绩、课程作业、期末考试；目标1.3、2.3、3.3。"
+    },
+    {
+      "no": 7,
+      "type": "理论",
+      "unit": "第三单元 雅可比、轨迹、动力学与控制基础",
+      "title": "关节空间与笛卡儿空间轨迹规划",
+      "image": "images/lesson-07-knowledge-map.png",
+      "assessment": "平时成绩、课程作业、期末考试；目标1.3、2.3、3.3。"
+    },
+    {
+      "no": 8,
+      "type": "理论",
+      "unit": "第三单元 雅可比、轨迹、动力学与控制基础",
+      "title": "机器人动力学方程、负载与基础关节控制",
+      "image": "images/lesson-08-knowledge-map.png",
+      "assessment": "平时成绩、课程作业、期末考试；目标1.3、2.3、3.3。"
+    },
+    {
+      "no": 9,
+      "type": "理论",
+      "unit": "第四单元 轮式移动机器人",
+      "title": "轮式移动模型、非完整约束与里程计",
+      "image": "images/lesson-09-knowledge-map.png",
+      "assessment": "平时成绩、课程作业、期末考试；目标1.4、2.4、3.4。"
+    },
+    {
+      "no": 10,
+      "type": "理论",
+      "unit": "第四单元 轮式移动机器人",
+      "title": "路径规划、轨迹跟踪与AGV/AMR任务评价",
+      "image": "images/lesson-10-knowledge-map.png",
+      "assessment": "平时成绩、课程作业、期末考试；目标1.4、2.4、3.4。"
+    },
+    {
+      "no": 11,
+      "type": "理论",
+      "unit": "第五单元 足式、四足、人形与轮足式机器人",
+      "title": "足式/轮足机器人支撑、稳定与模式切换",
+      "image": "images/lesson-11-knowledge-map.png",
+      "assessment": "平时成绩、课程作业、期末考试；目标1.5、2.5、3.5。"
+    },
+    {
+      "no": 12,
+      "type": "理论",
+      "unit": "第六单元 机器人感知、规划、应用与安全",
+      "title": "机器人感知—规划—控制系统链与安全验证",
+      "image": "images/lesson-12-knowledge-map.png",
+      "assessment": "平时成绩、课程作业、期末考试；目标1.6、2.6、3.6。"
+    },
+    {
+      "no": 13,
+      "type": "实验",
+      "unit": "实验一 机械臂坐标标定与位姿验证",
+      "title": "实验一：机械臂坐标标定、正运动学与误差验证",
+      "image": "images/lesson-13-knowledge-map.png",
+      "assessment": "课程作业；目标1.1、1.2、2.1、2.2、3.1、3.2。"
+    },
+    {
+      "no": 14,
+      "type": "实验",
+      "unit": "实验二 机械臂轨迹与动力响应",
+      "title": "实验二：机械臂轨迹、动态响应与安全限值",
+      "image": "images/lesson-14-knowledge-map.png",
+      "assessment": "课程作业；目标1.3、2.3、3.2、3.3。"
+    },
+    {
+      "no": 15,
+      "type": "实验",
+      "unit": "实验三 轮式机器人里程计与路径跟踪",
+      "title": "实验三：轮式机器人参数标定、里程计与路径跟踪",
+      "image": "images/lesson-15-knowledge-map.png",
+      "assessment": "课程作业；目标1.4、2.4、3.4。"
+    },
+    {
+      "no": 16,
+      "type": "实验",
+      "unit": "实验四 足式/轮足式机器人运动与稳定性观察",
+      "title": "实验四：足式/轮足运动、支撑与稳定性数据观察",
+      "image": "images/lesson-16-knowledge-map.png",
+      "assessment": "课程作业；目标1.5、2.5、3.5。"
+    },
+    {
+      "no": 17,
+      "type": "上机",
+      "unit": "上机一 Python空间数学与机器人模型",
+      "title": "上机一①：二维/三维旋转、齐次变换与表示转换",
+      "image": "images/lesson-17-knowledge-map.png",
+      "assessment": "课程作业；目标1.1、2.1、3.1。"
+    },
+    {
+      "no": 18,
+      "type": "上机",
+      "unit": "上机一 Python空间数学与机器人模型",
+      "title": "上机一②：多坐标系链、位姿插值、可视化与回归测试",
+      "image": "images/lesson-18-knowledge-map.png",
+      "assessment": "课程作业；目标1.1、2.1、3.1。"
+    },
+    {
+      "no": 19,
+      "type": "上机",
+      "unit": "上机二 串联机械臂运动学、工作空间与奇异性",
+      "title": "上机二①：Python机械臂建模、正逆运动学与误差验证",
+      "image": "images/lesson-19-knowledge-map.png",
+      "assessment": "课程作业；目标1.2、2.2、3.2。"
+    },
+    {
+      "no": 20,
+      "type": "上机",
+      "unit": "上机二 串联机械臂运动学、工作空间与奇异性",
+      "title": "上机二②：工作空间、雅可比、奇异性与边界测试",
+      "image": "images/lesson-20-knowledge-map.png",
+      "assessment": "课程作业；目标1.2、1.3、2.2、2.3、3.2。"
+    },
+    {
+      "no": 21,
+      "type": "上机",
+      "unit": "上机三 轨迹、动力学与关节控制仿真",
+      "title": "上机三①：轨迹生成、连续性与时间尺度评价",
+      "image": "images/lesson-21-knowledge-map.png",
+      "assessment": "课程作业；目标1.3、2.3、3.3。"
+    },
+    {
+      "no": 22,
+      "type": "上机",
+      "unit": "上机三 轨迹、动力学与关节控制仿真",
+      "title": "上机三②：动力学、负载影响与PID/前馈控制仿真",
+      "image": "images/lesson-22-knowledge-map.png",
+      "assessment": "课程作业；目标1.3、2.3、3.3。"
+    },
+    {
+      "no": 23,
+      "type": "上机",
+      "unit": "上机四 移动机器人规划、跟踪与多构型比较",
+      "title": "上机四①：移动模型、里程计与路径规划",
+      "image": "images/lesson-23-knowledge-map.png",
+      "assessment": "课程作业；目标1.4、2.4、3.4。"
+    },
+    {
+      "no": 24,
+      "type": "上机",
+      "unit": "上机四 移动机器人规划、跟踪与多构型比较",
+      "title": "上机四②：轨迹跟踪、规划失败与多构型指标比较",
+      "image": "images/lesson-24-knowledge-map.png",
+      "assessment": "课程作业；目标1.4、1.5、2.4、2.5、3.4、3.5。"
+    },
+    {
+      "no": 25,
+      "type": "项目式",
+      "unit": "项目一 机器人任务定义与系统建模",
+      "title": "综合项目①：场景选题、需求、机器人构型与安全边界",
+      "image": "images/lesson-25-knowledge-map.png",
+      "assessment": "期末考核—综合项目；目标1.1—1.6、2.1—2.6、3.1—3.6。"
+    },
+    {
+      "no": 26,
+      "type": "项目式",
+      "unit": "项目一 机器人任务定义与系统建模",
+      "title": "综合项目②：系统模型、算法链、接口与测试计划评审",
+      "image": "images/lesson-26-knowledge-map.png",
+      "assessment": "期末考核—综合项目；目标1.1—1.6、2.1—2.6、3.1—3.6。"
+    },
+    {
+      "no": 27,
+      "type": "项目式",
+      "unit": "项目二 Python机器人系统实现、验证与答辩",
+      "title": "综合项目③：核心实现、联合仿真与故障/边界测试",
+      "image": "images/lesson-27-knowledge-map.png",
+      "assessment": "期末考核—综合项目；目标2.1—2.6、3.1—3.6。"
+    },
+    {
+      "no": 28,
+      "type": "项目式",
+      "unit": "项目二 Python机器人系统实现、验证与答辩",
+      "title": "综合项目④：工程交付、演示、个人核验与课程闭环",
+      "image": "images/lesson-28-knowledge-map.png",
+      "assessment": "期末考核—综合项目；目标1.1—1.6、2.1—2.6、3.1—3.6。"
+    }
+  ],
+  "sha256": {
+    "25JD31403-机器人技术与应用（A）-教案.md": "5793dc2176f40ac8fa504d72be2dd6e620948a8478f7e715258ec6babecff987",
+    "images/lesson-01-knowledge-map.png": "3d42340e2861f95dfa65e25c9a7e0106e12edb447ce3a1d0f45b656beaceeba0",
+    "images/lesson-02-knowledge-map.png": "7363378160b16385e867053f708c70de148e8db70930275e0c0f1c31c0a9fff3",
+    "images/lesson-03-knowledge-map.png": "4acb818c471e1138559f793e1d22450f38cf7064b5bac1b7ba9e1b158f45a43a",
+    "images/lesson-04-knowledge-map.png": "991d1044c88c85b6f60d4a294e73ea67bafaa055c6be4e95997d37836e6a7984",
+    "images/lesson-05-knowledge-map.png": "837d9a2daeb609f1220cd68ef8d71ea5fa1099d4159483cdd25faf438e5bb2e7",
+    "images/lesson-06-knowledge-map.png": "782094546e21d4a0c9ca704054936ff5fa97b3074f9bbbb3334e87e276befcb1",
+    "images/lesson-07-knowledge-map.png": "f2337a50d4dfb87f10b2bf0b59da3bad0e7aa81ca045ff0a6863dbf3abf33699",
+    "images/lesson-08-knowledge-map.png": "fde5870b5f6472cd110a4373c868d12d1817c9626ddb5dd5af885b784d2dca7c",
+    "images/lesson-09-knowledge-map.png": "b6a5e40350475dd14c75ac5a82ab50182032f79f11828604bd5ccc8c94ff6767",
+    "images/lesson-10-knowledge-map.png": "ea2948e7a08017fe041e3722ca1364eb968606e3a53920b58812b8bce1da69c3",
+    "images/lesson-11-knowledge-map.png": "b7cbbfcbed9a4919aa1535597bbab3ef1c2c373cb5a0e8e35de4f0aebc87cbc6",
+    "images/lesson-12-knowledge-map.png": "55a48846e390f4bc4e883abbadd582537e3316f1832d436fd79f68d6db3fd958",
+    "images/lesson-13-knowledge-map.png": "7be3e7bce0d35b39dc172d6a810d565da659265f4fbe84bce1f1d700e29f6e92",
+    "images/lesson-14-knowledge-map.png": "5e8cc6eb5f181870ad59946461a785f8ff822731d4a54b8ef7cccba644b32d3f",
+    "images/lesson-15-knowledge-map.png": "e4bba148514d5b5b08b44e63b14d8e406fe34887e1b898bf4041e2b7d6098684",
+    "images/lesson-16-knowledge-map.png": "517067f5e9d068955b3a2ccd570b8c19ef380de9c70ef8d7504dba676ad4a026",
+    "images/lesson-17-knowledge-map.png": "ceafe5d4f3076e65e0848295316f7f0b7f69922369cb88b9c20f836a4bb0085a",
+    "images/lesson-18-knowledge-map.png": "db486357f1a6c526ec6a620bab43467c2565e6ca6ef2b623f0930f6537fd34e4",
+    "images/lesson-19-knowledge-map.png": "67794d1d487772c054df7d031140799732aae08d9b3b2b5c4336c3a18b8f0294",
+    "images/lesson-20-knowledge-map.png": "25ebc64c76246ece6d9d3e59ff7da599704537cdea64fbddba0c895a2054ebe4",
+    "images/lesson-21-knowledge-map.png": "42c6484dc91e3c6e451ee6a7700b25632cc786b9f49ac1771b658a7b1b98b11c",
+    "images/lesson-22-knowledge-map.png": "dd04ca45c494f64048e737fb6c4819e026441defbb7e007f67b6c99a86ccbc53",
+    "images/lesson-23-knowledge-map.png": "5e777213695eb419f23389f664d2f295bba9d3f611851839afd652a7adf6a091",
+    "images/lesson-24-knowledge-map.png": "40ebdec577d96afd2d82986aaa78bd5c10c4d0e16edb9e0ba3d3397de272c3f4",
+    "images/lesson-25-knowledge-map.png": "dd66ce1129b325494d6c9fb48876a526e05791bfb26fcfc31f152961cafc6794",
+    "images/lesson-26-knowledge-map.png": "a0cbc49f3a8c79454b24d782c22a0a1f1e7ceac88cbd481f2a6cc8980591150e",
+    "images/lesson-27-knowledge-map.png": "95d75ae49d31f463a05d73977de5c067b14d90e5d2d165679317a20c1a5b18ef",
+    "images/lesson-28-knowledge-map.png": "4d6363d4f93eb668397db836143410fb8efbdaceee4c77047c4a05a160fae2e6"
+  }
+}

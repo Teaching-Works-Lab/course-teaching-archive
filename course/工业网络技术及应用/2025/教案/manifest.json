@@ -1,0 +1,203 @@
+{
+  "course": {
+    "name": "工业网络技术及应用",
+    "code": "25JD32410",
+    "credits": 3,
+    "semester": 6,
+    "hours": {
+      "lecture": 48,
+      "total": 48
+    },
+    "assessment": "考查"
+  },
+  "canonical_working_markdown": "工业网络技术及应用_教案-working.md",
+  "clean_markdown": "工业网络技术及应用_教案_24次课_正式内容.md",
+  "lesson_count": 24,
+  "syllabus": {
+    "path": "course/工业网络技术及应用/2025/大纲/25JD32410-工业网络技术及应用-课程教学大纲.md",
+    "sha": "a0e39e50a762c8cfea7d4b20a670053df21d37a2",
+    "updated": "2026年9月"
+  },
+  "metadata": {
+    "path": "course/工业网络技术及应用/2025/元数据/课程数据与来源.json",
+    "sha": "638ffa5b4676269f1187e9b9443bd54ee841ec0c"
+  },
+  "compiler_skill_sha": "23bc5a10e7881e8863ad993c74dabdc9faf24a4d",
+  "course_map": "images/course-knowledge-map.png",
+  "lessons": [
+    {
+      "no": 1,
+      "unit": "第一单元 工业网络体系与通信基础",
+      "title": "工业网络层级、IT/OT差异与工程需求",
+      "image": "images/lesson-01-knowledge-map.png",
+      "assessment": "平时成绩；目标1.1、2.1、3.1。"
+    },
+    {
+      "no": 2,
+      "unit": "第一单元 工业网络体系与通信基础",
+      "title": "OSI/TCP-IP映射、传输介质与工业拓扑",
+      "image": "images/lesson-02-knowledge-map.png",
+      "assessment": "平时成绩；目标1.1、2.1、3.1。"
+    },
+    {
+      "no": 3,
+      "unit": "第一单元 工业网络体系与通信基础",
+      "title": "MAC、ARP、IP、子网与端口：工业地址体系",
+      "image": "images/lesson-03-knowledge-map.png",
+      "assessment": "平时成绩；目标1.1、2.1、3.1。"
+    },
+    {
+      "no": 4,
+      "unit": "第一单元 工业网络体系与通信基础",
+      "title": "时延、抖动、丢包、带宽与工业网络性能需求",
+      "image": "images/lesson-04-knowledge-map.png",
+      "assessment": "课程作业阶段1；目标1.1、2.1、3.1。"
+    },
+    {
+      "no": 5,
+      "unit": "第二单元 现场总线与Modbus通信",
+      "title": "现场总线、主从模型与RS-485基础",
+      "image": "images/lesson-05-knowledge-map.png",
+      "assessment": "平时成绩；目标1.2、2.2、3.2。"
+    },
+    {
+      "no": 6,
+      "unit": "第二单元 现场总线与Modbus通信",
+      "title": "Modbus RTU数据模型、功能码与帧结构",
+      "image": "images/lesson-06-knowledge-map.png",
+      "assessment": "平时成绩；目标1.2、2.2、3.2。"
+    },
+    {
+      "no": 7,
+      "unit": "第二单元 现场总线与Modbus通信",
+      "title": "Modbus TCP、MBAP与RTU/TCP映射",
+      "image": "images/lesson-07-knowledge-map.png",
+      "assessment": "平时成绩；目标1.2、2.2、3.2。"
+    },
+    {
+      "no": 8,
+      "unit": "第二单元 现场总线与Modbus通信",
+      "title": "协议转换、PROFIBUS/CAN概览与Modbus故障分析",
+      "image": "images/lesson-08-knowledge-map.png",
+      "assessment": "课程作业阶段2；目标1.2、2.2、3.2。"
+    },
+    {
+      "no": 9,
+      "unit": "第三单元 工业以太网与交换网络设计",
+      "title": "以太网帧、交换转发、ARP与TCP/UDP数据路径",
+      "image": "images/lesson-09-knowledge-map.png",
+      "assessment": "平时成绩；目标1.3、2.3、3.3。"
+    },
+    {
+      "no": 10,
+      "unit": "第三单元 工业以太网与交换网络设计",
+      "title": "VLAN、网络分段、环网冗余、QoS与时间同步",
+      "image": "images/lesson-10-knowledge-map.png",
+      "assessment": "平时成绩；目标1.3、2.3、3.3。"
+    },
+    {
+      "no": 11,
+      "unit": "第三单元 工业以太网与交换网络设计",
+      "title": "PROFINET体系、IO Controller/Device与周期数据",
+      "image": "images/lesson-11-knowledge-map.png",
+      "assessment": "平时成绩；目标1.3、2.3、3.3。"
+    },
+    {
+      "no": 12,
+      "unit": "第三单元 工业以太网与交换网络设计",
+      "title": "PROFINET诊断、交换网络方案与EtherNet/IP概览",
+      "image": "images/lesson-12-knowledge-map.png",
+      "assessment": "课程作业阶段3；目标1.3、2.3、3.3。"
+    },
+    {
+      "no": 13,
+      "unit": "第四单元 实时工业以太网、EtherCAT与TSN",
+      "title": "工业实时通信需求与PROFINET RT/IRT概念",
+      "image": "images/lesson-13-knowledge-map.png",
+      "assessment": "平时成绩；目标1.4、2.4、3.4。"
+    },
+    {
+      "no": 14,
+      "unit": "第四单元 实时工业以太网、EtherCAT与TSN",
+      "title": "EtherCAT主从结构、帧处理与过程数据映射",
+      "image": "images/lesson-14-knowledge-map.png",
+      "assessment": "平时成绩；目标1.4、2.4、3.4。"
+    },
+    {
+      "no": 15,
+      "unit": "第四单元 实时工业以太网、EtherCAT与TSN",
+      "title": "EtherCAT分布式时钟、同步与PROFINET/EtherCAT比较",
+      "image": "images/lesson-15-knowledge-map.png",
+      "assessment": "平时成绩；目标1.4、2.4、3.4。"
+    },
+    {
+      "no": 16,
+      "unit": "第四单元 实时工业以太网、EtherCAT与TSN",
+      "title": "TSN基本机制与确定性网络性能评价",
+      "image": "images/lesson-16-knowledge-map.png",
+      "assessment": "课程作业阶段4；目标1.4、2.4、3.4。"
+    },
+    {
+      "no": 17,
+      "unit": "第五单元 OPC UA、MQTT与OT/IT数据集成",
+      "title": "OPC UA客户端/服务器、地址空间与节点",
+      "image": "images/lesson-17-knowledge-map.png",
+      "assessment": "平时成绩；目标1.5、2.5、3.5。"
+    },
+    {
+      "no": 18,
+      "unit": "第五单元 OPC UA、MQTT与OT/IT数据集成",
+      "title": "OPC UA订阅、信息模型、安全与PubSub定位",
+      "image": "images/lesson-18-knowledge-map.png",
+      "assessment": "平时成绩；目标1.5、2.5、3.5。"
+    },
+    {
+      "no": 19,
+      "unit": "第五单元 OPC UA、MQTT与OT/IT数据集成",
+      "title": "MQTT发布/订阅、主题、QoS与Broker",
+      "image": "images/lesson-19-knowledge-map.png",
+      "assessment": "平时成绩；目标1.5、2.5、3.5。"
+    },
+    {
+      "no": 20,
+      "unit": "第五单元 OPC UA、MQTT与OT/IT数据集成",
+      "title": "边缘网关、协议适配与PLC—SCADA—MES数据链",
+      "image": "images/lesson-20-knowledge-map.png",
+      "assessment": "课程作业阶段5；目标1.5、2.5、3.5。"
+    },
+    {
+      "no": 21,
+      "unit": "第六单元 网络诊断、可靠性、安全与方案设计",
+      "title": "工业网络分层诊断：从物理链路到应用数据",
+      "image": "images/lesson-21-knowledge-map.png",
+      "assessment": "平时成绩；目标1.6、2.6、3.6。"
+    },
+    {
+      "no": 22,
+      "unit": "第六单元 网络诊断、可靠性、安全与方案设计",
+      "title": "Ping、ARP、抓包、端口统计与设备诊断的合规使用",
+      "image": "images/lesson-22-knowledge-map.png",
+      "assessment": "平时成绩；目标1.6、2.6、3.6。"
+    },
+    {
+      "no": 23,
+      "unit": "第六单元 网络诊断、可靠性、安全与方案设计",
+      "title": "冗余、分区分域、防火墙、白名单与配置基线",
+      "image": "images/lesson-23-knowledge-map.png",
+      "assessment": "平时成绩；目标1.6、2.6、3.6。"
+    },
+    {
+      "no": 24,
+      "unit": "第六单元 网络诊断、可靠性、安全与方案设计",
+      "title": "工业网络综合方案：需求、拓扑、协议、数据、安全与验证",
+      "image": "images/lesson-24-knowledge-map.png",
+      "assessment": "课程作业阶段6（课程作业内部10%）＋期末考核（总评60%）；目标1.6、2.6、3.6及全部课程目标。"
+    }
+  ],
+  "files": {
+    "工业网络技术及应用_教案-working.md": "9f93fd390c81b766062cefb42a9b3f5f07c16a70695962263f02bdf1ef2c81dd",
+    "工业网络技术及应用_教案_24次课_正式内容.md": "4d9bb1804b188fccbd72925e69e8710e5509b4057a8da672db471c5f1ee529f2",
+    "images_count": 25,
+    "docx": "678474debcfda6865956a90ac41de50168bfeead0c566b2fa3deb698b9118fd4"
+  }
+}

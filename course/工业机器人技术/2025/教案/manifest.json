@@ -1,0 +1,63 @@
+{
+  "course": {
+    "name": "工业机器人技术",
+    "english": "Industrial Robot Technology",
+    "code": "25JD32409",
+    "category": "专业类",
+    "nature": "选修",
+    "language": "中文",
+    "semester": "第6学期",
+    "credits": "2",
+    "hours_total": "32",
+    "hours_theory": "16",
+    "hours_exp": "0",
+    "hours_lab": "16",
+    "hours_other": "0",
+    "major": "智能制造工程",
+    "college": "机械与动力工程学院",
+    "prereq": "机器人技术与应用（A）、智能测试技术、PLC技术基础或同等基础",
+    "followup": "先进装备系统设计与开发（ROS）、智能工厂集成技术、毕业设计（论文）",
+    "textbook": "张小刚、方遒.《工业机器人系统综合设计》[M]. 北京：机械工业出版社，2025. ISBN 9787111776192",
+    "assessment": "最终成绩100%=平时成绩20%＋课程作业20%＋期末考核60%。",
+    "exam": "工业机器人工作站综合项目成果＋个人答辩/核验",
+    "syllabus_sha": "afece6c8ea150effb4f1a6fc09c2646d557d02f6",
+    "skill_sha": "23bc5a10e7881e8863ad993c74dabdc9faf24a4d",
+    "date": "2026年9月"
+  },
+  "document_state": "final_compiled",
+  "canonical_markdown": "工业机器人技术_教案_16次课_最终版.md",
+  "compiled_docx": "工业机器人技术_教案_16次课_最终版.docx",
+  "lesson_count": 16,
+  "hours": {
+    "total": 32,
+    "theory": 16,
+    "lab": 16
+  },
+  "images": 17,
+  "source": {
+    "syllabus_path": "course/工业机器人技术/2025/大纲/25JD32409-工业机器人技术-课程教学大纲.md",
+    "syllabus_sha": "afece6c8ea150effb4f1a6fc09c2646d557d02f6",
+    "skill_repo": "Teaching-Works-Lab/lesson-plan-compiler",
+    "skill_sha": "23bc5a10e7881e8863ad993c74dabdc9faf24a4d"
+  },
+  "unresolved_handling": {
+    "主讲教师": "Word封面保留“按实际填写”，未虚构",
+    "职称": "Word封面保留“按实际填写”，未虚构",
+    "具体周次": "Word各课次保留“按实际课表填写”，未虚构"
+  },
+  "checksums": {
+    "工业机器人技术_教案_16次课_最终版.md": "990847430a6ee7fa166603f9d74f93e0cfdf146c3dfc90d52c5def09d25667f0",
+    "工业机器人技术_教案_16次课_最终版.docx": "7596df31b367dc7aa1123a25fbb9179f3eb2e2cfd973cd01751c51149f11c8be",
+    "qa-report.md": "4ec39593c7b563973e73809f41c7b8084d9a876f1a02cab568aa5e85488e4dce"
+  },
+  "qa": {
+    "markdown_lessons": 16,
+    "markdown_image_refs": 17,
+    "source_images": 17,
+    "word_lesson_tables": 16,
+    "word_inline_maps": 16,
+    "rendered_pages": 51,
+    "theory_lesson_hours": 16,
+    "lab_lesson_hours": 16
+  }
+}

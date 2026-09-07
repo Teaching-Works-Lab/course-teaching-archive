@@ -1,0 +1,187 @@
+{
+  "course": "特种加工技术",
+  "course_code": "25JD32105",
+  "canonical_markdown": "25JD32105-特种加工技术-教案.md",
+  "lesson_count": 16,
+  "hours": {
+    "total": 32,
+    "theory": 26,
+    "experiment": 6,
+    "computer": 0,
+    "other": 0
+  },
+  "unit_hours": {
+    "特种加工概论与方法选择": 3,
+    "电火花成形与线切割": 7,
+    "电化学加工与表面处理": 5,
+    "激光、超声与水射流加工": 5,
+    "高能束、微细与复合加工": 3,
+    "工艺设计、质量与可持续制造": 3
+  },
+  "assessment": {
+    "usual": 20,
+    "coursework": 20,
+    "final": 60,
+    "final_internal": {
+      "comprehensive_process_design_report": 80,
+      "individual_defense_verification": 20
+    }
+  },
+  "source": {
+    "repository": "Teaching-Works-Lab/course-teaching-archive",
+    "syllabus_path": "course/特种加工技术/2025/大纲/25JD32105-特种加工技术-课程教学大纲.md",
+    "syllabus_blob_sha": "5a5275cdff1f2cbc1f82b7d52287e5cf5b849faf",
+    "design_note_blob_sha": "9906a0899a5742afcfd8eb0cc70ce28c4a920002",
+    "assessment_validation_blob_sha": "005eac213323d684187229d4e1bc772437e297b7"
+  },
+  "template": "25JD32417-信息物理系统（CPS）-教案.docx（学校教学设计版式基线，仅用于Word布局）",
+  "lessons": [
+    {
+      "no": 1,
+      "type": "理论",
+      "unit": "第一单元 特种加工概论与方法选择（2学时）",
+      "title": "特种加工分类、能量形式、材料去除机制与应用边界",
+      "image": "images/lesson-01-knowledge-map.png",
+      "assessment": "平时成绩；目标1.1、2.1、3.1。"
+    },
+    {
+      "no": 2,
+      "type": "理论",
+      "unit": "第一单元（1学时）+第二单元 电火花成形与线切割（1学时）",
+      "title": "特种加工方法选择收束与电火花放电机理导入",
+      "image": "images/lesson-02-knowledge-map.png",
+      "assessment": "平时成绩、课程作业；目标1.1、1.2、2.1、2.2、3.1、3.2。"
+    },
+    {
+      "no": 3,
+      "type": "理论",
+      "unit": "第二单元 电火花成形与线切割（2学时）",
+      "title": "电火花成形设备：脉冲电源、工作介质、工具电极、伺服与排屑",
+      "image": "images/lesson-03-knowledge-map.png",
+      "assessment": "平时成绩、课程作业；目标1.2、2.2、3.2。"
+    },
+    {
+      "no": 4,
+      "type": "理论",
+      "unit": "第二单元 电火花成形与线切割（2学时）",
+      "title": "电火花工艺规律：效率、工具损耗、精度与表面质量",
+      "image": "images/lesson-04-knowledge-map.png",
+      "assessment": "平时成绩、课程作业、期末考核；目标1.2、2.2、3.2、3.5。"
+    },
+    {
+      "no": 5,
+      "type": "理论",
+      "unit": "第二单元 电火花成形与线切割（2学时）",
+      "title": "电火花线切割设备、路径、参数与加工质量",
+      "image": "images/lesson-05-knowledge-map.png",
+      "assessment": "平时成绩、课程作业、期末考核；目标1.2、2.2、3.2。"
+    },
+    {
+      "no": 6,
+      "type": "实验",
+      "unit": "实验一 电火花/线切割参数与质量（2学时）",
+      "title": "实验一：电火花/线切割参数变化与加工质量验证",
+      "image": "images/lesson-06-knowledge-map.png",
+      "assessment": "课程作业；目标1.2、2.2、2.6、3.2、3.5。"
+    },
+    {
+      "no": 7,
+      "type": "理论",
+      "unit": "第三单元 电化学加工与表面处理（2学时）",
+      "title": "电化学加工机理、电解液与工具阴极",
+      "image": "images/lesson-07-knowledge-map.png",
+      "assessment": "平时成绩、课程作业；目标1.3、2.3、3.3。"
+    },
+    {
+      "no": 8,
+      "type": "理论",
+      "unit": "第三单元 电化学加工与表面处理（2学时）",
+      "title": "加工间隙、流场、电解磨削与电解抛光",
+      "image": "images/lesson-08-knowledge-map.png",
+      "assessment": "平时成绩、课程作业、期末考核；目标1.3、2.3、3.3。"
+    },
+    {
+      "no": 9,
+      "type": "理论",
+      "unit": "第三单元（1学时）+第四单元 激光、超声与水射流加工（1学时）",
+      "title": "电化学加工收束与激光加工机理、能量耦合导入",
+      "image": "images/lesson-09-knowledge-map.png",
+      "assessment": "平时成绩、课程作业；目标1.3、1.4、2.3、2.4、3.3、3.4。"
+    },
+    {
+      "no": 10,
+      "type": "理论",
+      "unit": "第四单元 激光、超声与水射流加工（2学时）",
+      "title": "激光切割/打孔参数、热影响与加工质量",
+      "image": "images/lesson-10-knowledge-map.png",
+      "assessment": "平时成绩、课程作业、期末考核；目标1.4、2.4、3.4、3.5。"
+    },
+    {
+      "no": 11,
+      "type": "理论",
+      "unit": "第四单元 激光、超声与水射流加工（2学时）",
+      "title": "超声加工、磨料水射流与脆硬材料加工质量",
+      "image": "images/lesson-11-knowledge-map.png",
+      "assessment": "平时成绩、课程作业、期末考核；目标1.4、2.4、3.4。"
+    },
+    {
+      "no": 12,
+      "type": "实验",
+      "unit": "实验二 激光/超声参数与缺陷观察（2学时）",
+      "title": "实验二：激光/超声参数对缺陷与表面状态的影响",
+      "image": "images/lesson-12-knowledge-map.png",
+      "assessment": "课程作业；目标1.4、2.4、2.6、3.4、3.5。"
+    },
+    {
+      "no": 13,
+      "type": "理论",
+      "unit": "第五单元 高能束、微细与复合加工（2学时）",
+      "title": "电子束、离子束、等离子体与微细特种加工",
+      "image": "images/lesson-13-knowledge-map.png",
+      "assessment": "平时成绩、课程作业、期末考核；目标1.5、2.5、3.5。"
+    },
+    {
+      "no": 14,
+      "type": "理论",
+      "unit": "第五单元（1学时）+第六单元 工艺设计、质量与可持续制造（1学时）",
+      "title": "复合加工原理、协同机制与综合工艺设计导入",
+      "image": "images/lesson-14-knowledge-map.png",
+      "assessment": "平时成绩、课程作业、期末考核；目标1.5、1.6、2.5、2.6、3.5、3.6。"
+    },
+    {
+      "no": 15,
+      "type": "理论",
+      "unit": "第六单元 工艺设计、质量与可持续制造（2学时）",
+      "title": "综合工艺选择、表面完整性、成本能耗与安全环保",
+      "image": "images/lesson-15-knowledge-map.png",
+      "assessment": "平时成绩、课程作业、期末考核；目标1.6、2.6、3.6、3.1。"
+    },
+    {
+      "no": 16,
+      "type": "实验",
+      "unit": "实验三 方法比较与综合工艺验证（2学时）",
+      "title": "实验三：典型难加工零件方法比较与综合工艺验证",
+      "image": "images/lesson-16-knowledge-map.png",
+      "assessment": "课程作业、期末考核准备；目标1.1、1.6、2.1、2.6、3.1、3.5、3.6。"
+    }
+  ],
+  "sha256": {
+    "25JD32105-特种加工技术-教案.md": "2652f135b789093b72afb160415175b19ca04ebf05aeb911915c337a200a6a7e",
+    "images/lesson-01-knowledge-map.png": "5da28b4175689a9efa4f53645a403163265919855921b9a968e587a3dfd58383",
+    "images/lesson-02-knowledge-map.png": "026308f5d6aa6de1a5a08f84b55e339074a523296b04121c6ad0ca5e477dd4da",
+    "images/lesson-03-knowledge-map.png": "9dad70d68899d6ecd45304d17fdc13bdd5eb9a0fac73107d3d361a1e9127090b",
+    "images/lesson-04-knowledge-map.png": "d5677c180ace1010a439536fb490aa8a7b612ef65b04c665936ac34d7db6ee73",
+    "images/lesson-05-knowledge-map.png": "739fbc4561095d808967038980d8cbf4120af26188d53b0967edc4a083a9fd2f",
+    "images/lesson-06-knowledge-map.png": "f78efbec0aefe8c5741478b01f04aa3d34dcaeddf0e082f755e4dd41717aaaf5",
+    "images/lesson-07-knowledge-map.png": "820fa3a2885c67120ad5c193761cb462cbc2cdd05be4d082b526d80da1105413",
+    "images/lesson-08-knowledge-map.png": "913d0311921b574696a700807378d4ba5590b76071448a7a3e64e8a2e35274c3",
+    "images/lesson-09-knowledge-map.png": "2e680275f94d71c0f56c3e1298e03e4ff1845e92adcdbf276b32b04b734e0072",
+    "images/lesson-10-knowledge-map.png": "5f05541e76b9f3656bb5fa9179bcd0ea2ae70b70775f3457dd117e26224f55d5",
+    "images/lesson-11-knowledge-map.png": "b0eb3d41016e7ec6903ee90dcd6f966fc0f0dc41060c03c6b07c1d661174605f",
+    "images/lesson-12-knowledge-map.png": "ea52285c33e01f5c571779b5931eef83db64fb7d42d3c5100676a527a4b1d2c6",
+    "images/lesson-13-knowledge-map.png": "4461e3c655ad92075b566606f1812e7a53ec9745a60c7943ea6a1f84e84756bb",
+    "images/lesson-14-knowledge-map.png": "cff33900fbcd225488f49ca418131d2bd34a1e550e7b97e38ba2d7bd252b6add",
+    "images/lesson-15-knowledge-map.png": "93c37bba8b3bafe9bbbecde15dcc22416588a0dc6a47a866895532e92354e17a",
+    "images/lesson-16-knowledge-map.png": "a225d4149cfd2010a22f8e1b84052423f4d91bce19c5dfd989855923592ca0cc"
+  }
+}

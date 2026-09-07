@@ -1,0 +1,146 @@
+{
+  "course": {
+    "name": "机械故障诊断及维护",
+    "code": "25JD32106",
+    "credits": 2,
+    "semester": 7,
+    "hours": {
+      "lecture": 32,
+      "total": 32
+    },
+    "assessment": "考查"
+  },
+  "canonical_working_markdown": "机械故障诊断及维护_教案-working.md",
+  "clean_markdown": "机械故障诊断及维护_教案_16次课_正式内容.md",
+  "lesson_count": 16,
+  "syllabus": {
+    "path": "course/机械故障诊断及维护/2025/大纲/25JD32106-机械故障诊断及维护-课程教学大纲.md",
+    "sha": "2c0e1e4bbffd145860ce024a96fbe9e9084aae82",
+    "updated": "2026年9月"
+  },
+  "metadata": {
+    "path": "course/机械故障诊断及维护/2025/元数据/课程数据与来源.json",
+    "sha": "f8826fc63fd6903ad6aa1ba6eaac547febaee871"
+  },
+  "course_map": "images/course-knowledge-map.png",
+  "lessons": [
+    {
+      "no": 1,
+      "unit": "第1单元 故障诊断基础、失效机理与维护策略",
+      "title": "机械故障、劣化、失效与诊断流程",
+      "image": "images/lesson-01-knowledge-map.png",
+      "assessment": "平时成绩；目标1.1、2.1、3.1。"
+    },
+    {
+      "no": 2,
+      "unit": "第1单元 故障诊断基础、失效机理与维护策略",
+      "title": "失效机理、浴盆曲线与维护策略选择",
+      "image": "images/lesson-02-knowledge-map.png",
+      "assessment": "课程作业阶段1（课程作业内部10%）；目标1.1、2.1、3.1。"
+    },
+    {
+      "no": 3,
+      "unit": "第2单元 机械振动、传感器与状态数据采集",
+      "title": "机械振动参数、位移/速度/加速度与转速参考",
+      "image": "images/lesson-03-knowledge-map.png",
+      "assessment": "平时成绩；目标1.2、2.2、3.2。"
+    },
+    {
+      "no": 4,
+      "unit": "第2单元 机械振动、传感器与状态数据采集",
+      "title": "传感器、测点方向与测量链有效性",
+      "image": "images/lesson-04-knowledge-map.png",
+      "assessment": "平时成绩；目标1.2、2.2、3.2。"
+    },
+    {
+      "no": 5,
+      "unit": "第2单元 机械振动、传感器与状态数据采集",
+      "title": "采样、混叠、窗函数、泄漏、分辨率与信噪比",
+      "image": "images/lesson-05-knowledge-map.png",
+      "assessment": "课程作业阶段2（课程作业内部15%）；目标1.2、2.2、3.2。"
+    },
+    {
+      "no": 6,
+      "unit": "第3单元 时域、频域与包络分析及特征提取",
+      "title": "时域波形与RMS、峰值、峭度等统计特征",
+      "image": "images/lesson-06-knowledge-map.png",
+      "assessment": "平时成绩；目标1.3、2.3、3.3。"
+    },
+    {
+      "no": 7,
+      "unit": "第3单元 时域、频域与包络分析及特征提取",
+      "title": "FFT频谱、转频/倍频、阶次与边频带",
+      "image": "images/lesson-07-knowledge-map.png",
+      "assessment": "平时成绩；目标1.3、2.3、3.3。"
+    },
+    {
+      "no": 8,
+      "unit": "第3单元 时域、频域与包络分析及特征提取",
+      "title": "滤波、包络谱、时频概念与趋势/阈值特征工程",
+      "image": "images/lesson-08-knowledge-map.png",
+      "assessment": "课程作业阶段3（课程作业内部20%）；目标1.3、2.3、3.3。"
+    },
+    {
+      "no": 9,
+      "unit": "第4单元 旋转机械、滚动轴承、齿轮箱与电动机故障诊断",
+      "title": "转子不平衡、不对中、松动、碰摩与油膜涡动",
+      "image": "images/lesson-09-knowledge-map.png",
+      "assessment": "平时成绩；目标1.4、2.4、3.4。"
+    },
+    {
+      "no": 10,
+      "unit": "第4单元 旋转机械、滚动轴承、齿轮箱与电动机故障诊断",
+      "title": "滚动轴承故障频率、冲击机理与包络诊断",
+      "image": "images/lesson-10-knowledge-map.png",
+      "assessment": "平时成绩；目标1.4、2.4、3.4。"
+    },
+    {
+      "no": 11,
+      "unit": "第4单元 旋转机械、滚动轴承、齿轮箱与电动机故障诊断",
+      "title": "齿轮啮合频率、边频带与齿轮箱故障",
+      "image": "images/lesson-11-knowledge-map.png",
+      "assessment": "课程作业阶段4（课程作业内部30%的组成证据）；目标1.4、2.4、3.4。"
+    },
+    {
+      "no": 12,
+      "unit": "第4单元 旋转机械、滚动轴承、齿轮箱与电动机故障诊断",
+      "title": "电动机故障、多故障耦合与综合证据链诊断",
+      "image": "images/lesson-12-knowledge-map.png",
+      "assessment": "课程作业阶段4（课程作业内部30%）；目标1.4、2.4、3.4。"
+    },
+    {
+      "no": 13,
+      "unit": "第5单元 多源监测、智能故障诊断与状态评估",
+      "title": "多源状态监测、数据清洗与特征工程",
+      "image": "images/lesson-13-knowledge-map.png",
+      "assessment": "平时成绩；目标1.5、2.5、3.5。"
+    },
+    {
+      "no": 14,
+      "unit": "第5单元 多源监测、智能故障诊断与状态评估",
+      "title": "分类、异常检测、聚类与模型验证边界",
+      "image": "images/lesson-14-knowledge-map.png",
+      "assessment": "课程作业阶段5（课程作业内部10%）；目标1.5、2.5、3.5。"
+    },
+    {
+      "no": 15,
+      "unit": "第6单元 趋势预测、维护决策与设备全寿命管理",
+      "title": "状态趋势、报警阈值、健康分级与剩余寿命概念",
+      "image": "images/lesson-15-knowledge-map.png",
+      "assessment": "平时成绩；目标1.6、2.6、3.6。"
+    },
+    {
+      "no": 16,
+      "unit": "第6单元 趋势预测、维护决策与设备全寿命管理",
+      "title": "维护决策、复机验证与综合诊断维护方案",
+      "image": "images/lesson-16-knowledge-map.png",
+      "assessment": "课程作业阶段6（课程作业内部15%）＋期末考核（总评60%）；目标1.6、2.6、3.6及全部课程目标。"
+    }
+  ],
+  "files": {
+    "机械故障诊断及维护_教案-working.md": "71a1a5258690cf646cdccae93efcc959a9e067abdec5b373ac162b2fb591b86e",
+    "机械故障诊断及维护_教案_16次课_正式内容.md": "afcf4145069d009a89050658af65d6e5ee317e025d802611013fc9da41313844",
+    "images_count": 17,
+    "docx": "566a788458b6f110fe4e89642dd8a66408d32cf7115e002d4620a597af8da1c3"
+  }
+}

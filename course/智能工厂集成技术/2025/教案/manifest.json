@@ -1,0 +1,137 @@
+{
+  "course": {
+    "name": "智能工厂集成技术",
+    "code": "25JD32406",
+    "hours": 32,
+    "theory_hours": 32
+  },
+  "canonical_markdown": "智能工厂集成技术_教案_16次课_最终版.md",
+  "lesson_count": 16,
+  "syllabus": {
+    "repository": "Teaching-Works-Lab/course-teaching-archive",
+    "path": "course/智能工厂集成技术/2025/大纲/25JD32406-智能工厂集成技术-课程教学大纲.md",
+    "sha": "2322e7b101ad792a7815bfc3ac931f2c4d7474d9",
+    "date": "2026年9月"
+  },
+  "template_identifier": "机械测试技术教案.docx（学校教学设计视觉/表格基线，仅用于Word格式编译）",
+  "course_map": "images/course-knowledge-map.png",
+  "lessons": [
+    {
+      "no": 1,
+      "section": "第一单元 智能工厂体系架构与集成方法",
+      "title": "智能工厂、智能制造系统、CPS与分层架构",
+      "image": "images/lesson-01-knowledge-map.png",
+      "assessment": "平时成绩；课程作业“智能工厂总体架构分析”（10%模块）过程证据；目标1.1、2.1、3.1。"
+    },
+    {
+      "no": 2,
+      "section": "第一单元 智能工厂体系架构与集成方法",
+      "title": "制造资源、信息流/业务流、自动化金字塔与集成生命周期",
+      "image": "images/lesson-02-knowledge-map.png",
+      "assessment": "平时成绩；课程作业“智能工厂总体架构分析”（10%模块）阶段证据；目标1.1、2.1、3.1。"
+    },
+    {
+      "no": 3,
+      "section": "第二单元 工业网络、通信协议与数据互联",
+      "title": "工业网络基础：拓扑、实时性、可靠性与网络分层",
+      "image": "images/lesson-03-knowledge-map.png",
+      "assessment": "平时成绩；课程作业“工业网络与通信方案”（15%模块）过程证据；目标1.2、2.2、3.2、3.5。"
+    },
+    {
+      "no": 4,
+      "section": "第二单元 工业网络、通信协议与数据互联",
+      "title": "Modbus TCP与PROFINET：协议层级、数据点与控制场景",
+      "image": "images/lesson-04-knowledge-map.png",
+      "assessment": "平时成绩；课程作业“工业网络与通信方案”（15%模块）过程证据；目标1.2、2.2、3.2、3.5。"
+    },
+    {
+      "no": 5,
+      "section": "第二单元 工业网络、通信协议与数据互联",
+      "title": "OPC UA、MQTT、网关与协议转换：从连接到语义互操作",
+      "image": "images/lesson-05-knowledge-map.png",
+      "assessment": "课程作业“工业网络与通信方案”（15%模块）阶段成果；目标1.2、2.2、3.2、3.5。"
+    },
+    {
+      "no": 6,
+      "section": "第三单元 制造装备与生产单元集成",
+      "title": "PLC、数控机床、机器人、视觉与传感器的接口对象",
+      "image": "images/lesson-06-knowledge-map.png",
+      "assessment": "平时成绩；课程作业“制造单元接口与协同”（20%模块）过程证据；目标1.3、2.3、3.2、3.3。"
+    },
+    {
+      "no": 7,
+      "section": "第三单元 制造装备与生产单元集成",
+      "title": "AGV/AMR、智能仓储与设备互锁、报警和异常处置",
+      "image": "images/lesson-07-knowledge-map.png",
+      "assessment": "平时成绩；课程作业“制造单元接口与协同”（20%模块）过程证据；目标1.3、2.3、3.2、3.3。"
+    },
+    {
+      "no": 8,
+      "section": "第三单元 制造装备与生产单元集成",
+      "title": "柔性制造单元：机器人—机床—视觉—物流时序与联调",
+      "image": "images/lesson-08-knowledge-map.png",
+      "assessment": "课程作业“制造单元接口与协同”（20%模块）阶段成果；目标1.3、2.3、3.2、3.3。"
+    },
+    {
+      "no": 9,
+      "section": "第四单元 MES与企业信息系统集成",
+      "title": "MES核心功能与生产工单执行闭环",
+      "image": "images/lesson-09-knowledge-map.png",
+      "assessment": "平时成绩；课程作业“MES与业务系统集成”（20%模块）过程证据；目标1.4、2.4、3.1、3.4。"
+    },
+    {
+      "no": 10,
+      "section": "第四单元 MES与企业信息系统集成",
+      "title": "ERP、PLM、WMS、QMS、SCADA与MES的边界和主数据",
+      "image": "images/lesson-10-knowledge-map.png",
+      "assessment": "平时成绩；课程作业“MES与业务系统集成”（20%模块）过程证据；目标1.4、2.4、3.1、3.4。"
+    },
+    {
+      "no": 11,
+      "section": "第四单元 MES与企业信息系统集成",
+      "title": "订单—计划—工单—质量—入库的数据链与接口模式",
+      "image": "images/lesson-11-knowledge-map.png",
+      "assessment": "课程作业“MES与业务系统集成”（20%模块）阶段成果；目标1.4、2.4、3.1、3.4。"
+    },
+    {
+      "no": 12,
+      "section": "第五单元 工业互联网平台、边缘计算与数字孪生",
+      "title": "设备数据采集、边缘网关、边缘计算与数据质量",
+      "image": "images/lesson-12-knowledge-map.png",
+      "assessment": "平时成绩；课程作业“平台数据与数字孪生”（20%模块）过程证据；目标1.5、2.5、3.2、3.5、3.6。"
+    },
+    {
+      "no": 13,
+      "section": "第五单元 工业互联网平台、边缘计算与数字孪生",
+      "title": "信息模型、工业互联网平台、时序数据与OEE/能耗/质量应用",
+      "image": "images/lesson-13-knowledge-map.png",
+      "assessment": "平时成绩；课程作业“平台数据与数字孪生”（20%模块）过程证据；目标1.5、2.5、3.2、3.5、3.6。"
+    },
+    {
+      "no": 14,
+      "section": "第五单元 工业互联网平台、边缘计算与数字孪生",
+      "title": "数字孪生：模型、状态映射、虚实同步与应用边界",
+      "image": "images/lesson-14-knowledge-map.png",
+      "assessment": "课程作业“平台数据与数字孪生”（20%模块）阶段成果；目标1.5、2.5、3.2、3.5、3.6。"
+    },
+    {
+      "no": 15,
+      "section": "第六单元 智能工厂集成设计、联调与运维",
+      "title": "需求分析、总体架构、接口控制与分层联调/端到端测试",
+      "image": "images/lesson-15-knowledge-map.png",
+      "assessment": "平时成绩；课程作业“综合性阶段成果与验证证据”（15%模块）过程证据；期末综合方案过程稿；目标1.6、2.6、3.3—3.6。"
+    },
+    {
+      "no": 16,
+      "section": "第六单元 智能工厂集成设计、联调与运维",
+      "title": "可靠性、安全、异常恢复、日志监控、备份、变更与综合方案评审",
+      "image": "images/lesson-16-knowledge-map.png",
+      "assessment": "课程作业“综合性阶段成果与验证证据”（15%模块）＋期末考核（60%综合方案报告+答辩/个人核验）；目标1.6、2.6、3.3—3.6。"
+    }
+  ],
+  "files": {
+    "智能工厂集成技术_教案_16次课_最终版.md": "bee62ad1a9d9b40f050cbd1918418f9356997465f5ec93014c96de7bb5b29757",
+    "images_count": 17,
+    "智能工厂集成技术_教案_16次课_最终版.docx": "f29486da269c4bec13c8f4a465e758b05083ba9461384dd125a023a1b42a7513"
+  }
+}
