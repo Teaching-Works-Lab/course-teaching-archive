@@ -1,0 +1,181 @@
+{
+  "course": "程序设计基础（C&C++）Ⅰ",
+  "course_code": "25JX31801",
+  "lesson_count": 24,
+  "markdown": "程序设计基础_C_C++_I_教案_24次课_最终版.md",
+  "images": [
+    {
+      "lesson": 1,
+      "title": "课程导入、开发环境与第一个 C 程序",
+      "source_media": "image21.png",
+      "file": "images/lesson-01-knowledge-map.png"
+    },
+    {
+      "lesson": 2,
+      "title": "C 程序结构、编译过程与基础调试",
+      "source_media": "image22.png",
+      "file": "images/lesson-02-knowledge-map.png"
+    },
+    {
+      "lesson": 3,
+      "title": "算法表示：从问题描述到可执行步骤",
+      "source_media": "image23.png",
+      "file": "images/lesson-03-knowledge-map.png"
+    },
+    {
+      "lesson": 4,
+      "title": "单元综合：可复现的 C 开发工作流",
+      "source_media": "image24.png",
+      "file": "images/lesson-04-knowledge-map.png"
+    },
+    {
+      "lesson": 5,
+      "title": "基本数据类型、常量与变量",
+      "source_media": "image25.png",
+      "file": "images/lesson-05-knowledge-map.png"
+    },
+    {
+      "lesson": 6,
+      "title": "运算符、表达式与类型转换",
+      "source_media": "image26.png",
+      "file": "images/lesson-06-knowledge-map.png"
+    },
+    {
+      "lesson": 7,
+      "title": "格式化输入输出：printf 与 scanf",
+      "source_media": "image27.png",
+      "file": "images/lesson-07-knowledge-map.png"
+    },
+    {
+      "lesson": 8,
+      "title": "实验1：工程数据输入、计算与格式化输出",
+      "source_media": "image28.png",
+      "file": "images/lesson-08-knowledge-map.png"
+    },
+    {
+      "lesson": 9,
+      "title": "if 语句与条件表达式",
+      "source_media": "image29.png",
+      "file": "images/lesson-09-knowledge-map.png"
+    },
+    {
+      "lesson": 10,
+      "title": "switch 与多分支状态处理",
+      "source_media": "image30.png",
+      "file": "images/lesson-10-knowledge-map.png"
+    },
+    {
+      "lesson": 11,
+      "title": "循环：for、while 与 do-while",
+      "source_media": "image31.png",
+      "file": "images/lesson-11-knowledge-map.png"
+    },
+    {
+      "lesson": 12,
+      "title": "实验2：嵌套循环、break/continue 与流程控制综合",
+      "source_media": "image32.png",
+      "file": "images/lesson-12-knowledge-map.png"
+    },
+    {
+      "lesson": 13,
+      "title": "一维数组：批量同类数据",
+      "source_media": "image33.png",
+      "file": "images/lesson-13-knowledge-map.png"
+    },
+    {
+      "lesson": 14,
+      "title": "二维数组：矩阵化工位数据",
+      "source_media": "image34.png",
+      "file": "images/lesson-14-knowledge-map.png"
+    },
+    {
+      "lesson": 15,
+      "title": "字符数组与字符串基础",
+      "source_media": "image35.png",
+      "file": "images/lesson-15-knowledge-map.png"
+    },
+    {
+      "lesson": 16,
+      "title": "实验3：结构体与结构数组——设备记录管理",
+      "source_media": "image36.png",
+      "file": "images/lesson-16-knowledge-map.png"
+    },
+    {
+      "lesson": 17,
+      "title": "指针基础：地址、解引用与内存观察",
+      "source_media": "image37.png",
+      "file": "images/lesson-17-knowledge-map.png"
+    },
+    {
+      "lesson": 18,
+      "title": "指针与数组",
+      "source_media": "image38.png",
+      "file": "images/lesson-18-knowledge-map.png"
+    },
+    {
+      "lesson": 19,
+      "title": "字符串指针与指针数组",
+      "source_media": "image39.png",
+      "file": "images/lesson-19-knowledge-map.png"
+    },
+    {
+      "lesson": 20,
+      "title": "实验4：指针综合与内存安全调试",
+      "source_media": "image40.png",
+      "file": "images/lesson-20-knowledge-map.png"
+    },
+    {
+      "lesson": 21,
+      "title": "函数定义、声明与调用",
+      "source_media": "image41.png",
+      "file": "images/lesson-21-knowledge-map.png"
+    },
+    {
+      "lesson": 22,
+      "title": "函数参数传递、作用域与数组/指针参数",
+      "source_media": "image42.png",
+      "file": "images/lesson-22-knowledge-map.png"
+    },
+    {
+      "lesson": 23,
+      "title": "返回指针与递归函数",
+      "source_media": "image43.png",
+      "file": "images/lesson-23-knowledge-map.png"
+    },
+    {
+      "lesson": 24,
+      "title": "实验5与课程综合：模块化工程数据处理程序",
+      "source_media": "image44.png",
+      "file": "images/lesson-24-knowledge-map.png"
+    }
+  ],
+  "sha256": {
+    "程序设计基础_C_C++_I_教案_24次课_最终版.md": "8db9f12806dc2249558402fea6cc9346060a9b7c993f47784d3df42997d5aa67",
+    "images/lesson-01-knowledge-map.png": "ac48e565a713e4093923fd2ef790d402409e8bee642179e371da6777241f7baf",
+    "images/lesson-02-knowledge-map.png": "7920ad731e59465dfb4dc32a1372e71547c1646cfb8c7ff0c73a8c4f05450fdf",
+    "images/lesson-03-knowledge-map.png": "5139073ad434e97e92390c9296be889dc367c0449ae88c798a8b44012426cc98",
+    "images/lesson-04-knowledge-map.png": "4d069321b562751fa99c21daec0281f1d0361bc6e5c4c0b3f244c7174ff42493",
+    "images/lesson-05-knowledge-map.png": "8287571819611d6cf80d6abf27b0e9570f27774a9e5d9f551e8a584b19eaede2",
+    "images/lesson-06-knowledge-map.png": "ad948c90a4a4ea0dd1b3dbe7ae55a77b2a15e15b379ec1a253207d8956917f18",
+    "images/lesson-07-knowledge-map.png": "c357ee30c8d6499e5ae82b86709b01cb95cf013013bb3d83d06737693391649b",
+    "images/lesson-08-knowledge-map.png": "388a2d6b251470b8c443a3fe009f8d9e9cb4d31ee4eac35c6dcc1758d71f34a3",
+    "images/lesson-09-knowledge-map.png": "f358f0b1dc1f00278270bf1904419cfca32da76a7b5ba6b61fdbf2b83e648afa",
+    "images/lesson-10-knowledge-map.png": "f62aca9b1d0949ca5d62655405dc83eea4027b92191aa9db44b0924da15032e9",
+    "images/lesson-11-knowledge-map.png": "3a994d95e9335020952585d3ca79d5574a7460a278c172c650b45c3a0ba4ff71",
+    "images/lesson-12-knowledge-map.png": "bdd1947216a8c84d179653a4a4e7e407ea30c94844d2ba213d5be8d1b9888235",
+    "images/lesson-13-knowledge-map.png": "4d0e3b09ea3985422ae359544764d09cd0271f4f5b414cc594926b80c7cc7340",
+    "images/lesson-14-knowledge-map.png": "e18897adbae87e1edaab8d176f709425c7bdc23c86b4b1f5c55d8d06d0142cb1",
+    "images/lesson-15-knowledge-map.png": "9f510fc7c3211352594517a5d75b41aec1ee0f5c48b98a85f0788f5f9c38a622",
+    "images/lesson-16-knowledge-map.png": "883ab44c4b726ddff100ce0b611b80b5846f40093038ff5671a3a06c360b50ef",
+    "images/lesson-17-knowledge-map.png": "0de6e417c3cdf539aa70f505e5bffa78dda329083cc975dd68a24f71ee7614a2",
+    "images/lesson-18-knowledge-map.png": "48df60415dc9a518d652dc8b597449f5ff6337e9bc7312ac9e1d466d4c752065",
+    "images/lesson-19-knowledge-map.png": "6d07a688265f3c63768dfdc0816fe6bda9d2ef3d488cc27477f2524d7a2722a1",
+    "images/lesson-20-knowledge-map.png": "9a619863e23e3cb67c749cc59a7ec4b2603773bbb2f41d80ab38d092ac1160d4",
+    "images/lesson-21-knowledge-map.png": "b50b7223176bfa8d93fd80156efb0ee0e15b6585d70c22aa8393a275bcd60d78",
+    "images/lesson-22-knowledge-map.png": "53a61702ac14883a146d98bf4f5b7221b85487af0f248ab0b00a596e0c25c45d",
+    "images/lesson-23-knowledge-map.png": "751ee52c25e2f5617dcb56ce7e80bba6003ee4fe566f8c435f7210448e20b225",
+    "images/lesson-24-knowledge-map.png": "2095bc7460a666579733fd9b89c1f29a714d1d6ae5668523a0c4aae22d148c7e",
+    "程序设计基础_C_C++_I_教案_24次课_最终版.docx": "053602a5944c1c6c97de0b0d99ba24c95b70a245bcb438fe3a20d1c31eec99b9"
+  },
+  "docx": "程序设计基础_C_C++_I_教案_24次课_最终版.docx"
+}
