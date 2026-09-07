@@ -1,0 +1,164 @@
+{
+  "course": "先进装备系统设计与开发（ROS）",
+  "course_code": "25JD31404",
+  "lesson_count": 24,
+  "hours": {
+    "total": 48,
+    "experiment": 8,
+    "computer": 32,
+    "project": 8
+  },
+  "canonical_markdown": "25JD31404-先进装备系统设计与开发（ROS）-教案.md",
+  "compiled_docx": "25JD31404-先进装备系统设计与开发（ROS）-教案.docx",
+  "images": [
+    {
+      "lesson": 1,
+      "title": "课程导入、Ubuntu 24.04 / ROS 2 Jazzy环境与工作空间",
+      "file": "images/lesson-01-knowledge-map.png"
+    },
+    {
+      "lesson": 2,
+      "title": "节点、话题与rclpy发布/订阅开发",
+      "file": "images/lesson-02-knowledge-map.png"
+    },
+    {
+      "lesson": 3,
+      "title": "计算图、QoS兼容性与rosbag2通信故障复现",
+      "file": "images/lesson-03-knowledge-map.png"
+    },
+    {
+      "lesson": 4,
+      "title": "服务、动作、参数与自定义接口设计",
+      "file": "images/lesson-04-knowledge-map.png"
+    },
+    {
+      "lesson": 5,
+      "title": "Launch、命名空间、生命周期、日志与自动测试",
+      "file": "images/lesson-05-knowledge-map.png"
+    },
+    {
+      "lesson": 6,
+      "title": "TF2坐标树、时间戳与坐标变换",
+      "file": "images/lesson-06-knowledge-map.png"
+    },
+    {
+      "lesson": 7,
+      "title": "机器人模型、关节状态与坐标一致性验证",
+      "file": "images/lesson-07-knowledge-map.png"
+    },
+    {
+      "lesson": 8,
+      "title": "URDF/Xacro工程化建模与RViz状态可视化",
+      "file": "images/lesson-08-knowledge-map.png"
+    },
+    {
+      "lesson": 9,
+      "title": "Gazebo Harmonic、SDF传感器与ros_gz_bridge",
+      "file": "images/lesson-09-knowledge-map.png"
+    },
+    {
+      "lesson": 10,
+      "title": "硬件抽象、控制器管理与闭环异常停止验证",
+      "file": "images/lesson-10-knowledge-map.png"
+    },
+    {
+      "lesson": 11,
+      "title": "SLAM / Nav2系统架构与传感、TF前置条件",
+      "file": "images/lesson-11-knowledge-map.png"
+    },
+    {
+      "lesson": 12,
+      "title": "SLAM Toolbox建图、地图保存与质量检查",
+      "file": "images/lesson-12-knowledge-map.png"
+    },
+    {
+      "lesson": 13,
+      "title": "定位、代价地图、规划器与控制器配置",
+      "file": "images/lesson-13-knowledge-map.png"
+    },
+    {
+      "lesson": 14,
+      "title": "行为树、生命周期、航点任务与故障恢复",
+      "file": "images/lesson-14-knowledge-map.png"
+    },
+    {
+      "lesson": 15,
+      "title": "MoveIt 2系统架构、规划组与运动学配置",
+      "file": "images/lesson-15-knowledge-map.png"
+    },
+    {
+      "lesson": 16,
+      "title": "关节/位姿目标、规划与动作执行",
+      "file": "images/lesson-16-knowledge-map.png"
+    },
+    {
+      "lesson": 17,
+      "title": "规划场景、碰撞对象与安全边界",
+      "file": "images/lesson-17-knowledge-map.png"
+    },
+    {
+      "lesson": 18,
+      "title": "moveit_py/C++接口、简化抓放与外围装备集成",
+      "file": "images/lesson-18-knowledge-map.png"
+    },
+    {
+      "lesson": 19,
+      "title": "长时动作、故障注入、取消、恢复与人工接管",
+      "file": "images/lesson-19-knowledge-map.png"
+    },
+    {
+      "lesson": 20,
+      "title": "移动操作/多子系统任务编排、诊断与可复现交付",
+      "file": "images/lesson-20-knowledge-map.png"
+    },
+    {
+      "lesson": 21,
+      "title": "综合项目选题、需求、场景与系统架构设计",
+      "file": "images/lesson-21-knowledge-map.png"
+    },
+    {
+      "lesson": 22,
+      "title": "接口合同、模型/仿真方案、仓库与最小可运行原型评审",
+      "file": "images/lesson-22-knowledge-map.png"
+    },
+    {
+      "lesson": 23,
+      "title": "系统集成、故障注入、性能/安全测试与修复",
+      "file": "images/lesson-23-knowledge-map.png"
+    },
+    {
+      "lesson": 24,
+      "title": "工程交付、现场修改、个人核验与答辩",
+      "file": "images/lesson-24-knowledge-map.png"
+    }
+  ],
+  "source_basis": "Teaching-Works-Lab/course-teaching-archive 2025 版现行课程教学大纲；只读使用，未写 GitHub。",
+  "sha256": {
+    "25JD31404-先进装备系统设计与开发（ROS）-教案.md": "fab703c61bb635072b6843b1abd2b307160b43a85e9aabade663c0de6967e1e0",
+    "25JD31404-先进装备系统设计与开发（ROS）-教案.docx": "b90ae3aca4bdd5986fdd872d693825e9207c0ee7cce37a82907953ee1030da9f",
+    "images/lesson-01-knowledge-map.png": "f8ed0e4f677b9d11c38fa852a1067e271287775996b3cd5ce338cf8531f84529",
+    "images/lesson-02-knowledge-map.png": "63cd79e3afba601d4b5b7c168b8aeb665295123e4e3a2c3f6b70dd92f87ef69f",
+    "images/lesson-03-knowledge-map.png": "aeea6a7a8a83f7714654299197347993d5b6f8d9750263b419555dc5f0c16553",
+    "images/lesson-04-knowledge-map.png": "d19d5eb9c3744b3899c34a3a8e3405fd2e0a61480230949b60d5f362d7471ad6",
+    "images/lesson-05-knowledge-map.png": "17a04d9e21f12f72852ca11cb703364e64f0b4d6b3b70d30ff14354b44dd7059",
+    "images/lesson-06-knowledge-map.png": "13a3ddeffd7b2b4212f5776a82d4932e8839fb96bfe862e96cfc983247c37b2c",
+    "images/lesson-07-knowledge-map.png": "89d77b1ec65df579da54d47fdbb7a2a7b1bb00d20ef154db0068e475a3b93e98",
+    "images/lesson-08-knowledge-map.png": "c9bdfb182c0b5f249c5f24c7d1e06f4eb7b996c67ee366c2c970faf9e0e5f5c5",
+    "images/lesson-09-knowledge-map.png": "bb7e0949ab0a3a2f6a9b8f876327a98d60176bd16319cf73aaa2e473334b9235",
+    "images/lesson-10-knowledge-map.png": "906d062f2740776d4e4de4de55ea29d2fd0b1c1312e40b4a3ce3dbb661d701af",
+    "images/lesson-11-knowledge-map.png": "5140c2ef7073506d3fc252ab16c5da11833ecabff29bd664146975b6ed71f01f",
+    "images/lesson-12-knowledge-map.png": "0face8b7df2479923e5a23c46a34e263fca5ffa9d4d9b4caedcbb8ae2996a84f",
+    "images/lesson-13-knowledge-map.png": "53259ec2b10fc177b7be0bb6c206f23ccb888227a9645b7d089762fb3d520c6a",
+    "images/lesson-14-knowledge-map.png": "082e6f5d0b7466be3662b41506fb928db27a0576720d507b41c69ee3b380080e",
+    "images/lesson-15-knowledge-map.png": "395754fedbd7754e094e5c14a7494ae0179ec2256475fa55f2f4883322e3a7e7",
+    "images/lesson-16-knowledge-map.png": "6db8713f518c62b4519fa90db933b44b1f969cb42bc583bd4562f187e66c886a",
+    "images/lesson-17-knowledge-map.png": "441a53dd615d0d66760852fa5563d6763a45c805c726f7e7f0052df308a3fd17",
+    "images/lesson-18-knowledge-map.png": "230335b0a5188fb0d622b37fca65787f702a3f5b454a952cfd538e81cf6a7bc4",
+    "images/lesson-19-knowledge-map.png": "b3514e2af0e0cd39f2ef73db4416c27a29f1680680f8479a2e0233545d9e5a84",
+    "images/lesson-20-knowledge-map.png": "bf08b2cfb49985e51975da0b5396779a867bd28daba1b185964e921a36b1353e",
+    "images/lesson-21-knowledge-map.png": "20db494b6f180ded951977fd4bf0ccb80d2217e373beb61120172d8a86ed9c64",
+    "images/lesson-22-knowledge-map.png": "b83a4601c72a03e7e29ac918eaad44eb3b1062de808472b211e2115d7d72824d",
+    "images/lesson-23-knowledge-map.png": "dcfabc4a18b73a3a0faf513f4bed356831d09b7db932b684a978f1e121800811",
+    "images/lesson-24-knowledge-map.png": "1e07cd0f79666200867e8e678da5c35e9623f802d58f3e1f28fdf8b1c876b833"
+  }
+}
