@@ -1,0 +1,192 @@
+{
+  "course": "计算机网络（B）",
+  "course_code": "25JX21801",
+  "canonical_markdown": "25JX21801-计算机网络（B）-教案.md",
+  "lesson_count": 24,
+  "hours": {
+    "total": 48,
+    "theory": 48,
+    "experiment": 0,
+    "computer": 0,
+    "project": 0
+  },
+  "assessment": {
+    "平时学习与课堂分析": 20,
+    "课程作业": 20,
+    "期末综合考查": 60
+  },
+  "lessons": [
+    {
+      "lesson": 1,
+      "title": "课程导入、网络组成与互联网结构",
+      "unit": "第1单元 计算机网络概论、体系结构与性能",
+      "image": "images/lesson-01-knowledge-map.png"
+    },
+    {
+      "lesson": 2,
+      "title": "分组交换、时延、吞吐量与丢包",
+      "unit": "第1单元 计算机网络概论、体系结构与性能",
+      "image": "images/lesson-02-knowledge-map.png"
+    },
+    {
+      "lesson": 3,
+      "title": "协议、分层体系结构与封装/解封装",
+      "unit": "第1单元 计算机网络概论、体系结构与性能",
+      "image": "images/lesson-03-knowledge-map.png"
+    },
+    {
+      "lesson": 4,
+      "title": "数据通信基础、信号、带宽与传输介质",
+      "unit": "第2单元 物理层、数据链路层、以太网与无线局域网",
+      "image": "images/lesson-04-knowledge-map.png"
+    },
+    {
+      "lesson": 5,
+      "title": "数据链路层：成帧、差错检测、MAC与ARP",
+      "unit": "第2单元 物理层、数据链路层、以太网与无线局域网",
+      "image": "images/lesson-05-knowledge-map.png"
+    },
+    {
+      "lesson": 6,
+      "title": "以太网帧、交换机学习转发、广播域与VLAN",
+      "unit": "第2单元 物理层、数据链路层、以太网与无线局域网",
+      "image": "images/lesson-06-knowledge-map.png"
+    },
+    {
+      "lesson": 7,
+      "title": "802.11无线局域网与局域网综合故障分析",
+      "unit": "第2单元 物理层、数据链路层、以太网与无线局域网",
+      "image": "images/lesson-07-knowledge-map.png"
+    },
+    {
+      "lesson": 8,
+      "title": "IPv4数据报、地址结构、CIDR与前缀",
+      "unit": "第3单元 网络层、IPv4/IPv6、路由与网络互联",
+      "image": "images/lesson-08-knowledge-map.png"
+    },
+    {
+      "lesson": 9,
+      "title": "IPv4子网划分与地址规划",
+      "unit": "第3单元 网络层、IPv4/IPv6、路由与网络互联",
+      "image": "images/lesson-09-knowledge-map.png"
+    },
+    {
+      "lesson": 10,
+      "title": "ARP/ICMP、NAT、MTU与分片",
+      "unit": "第3单元 网络层、IPv4/IPv6、路由与网络互联",
+      "image": "images/lesson-10-knowledge-map.png"
+    },
+    {
+      "lesson": 11,
+      "title": "路由表、最长前缀匹配与路由选择",
+      "unit": "第3单元 网络层、IPv4/IPv6、路由与网络互联",
+      "image": "images/lesson-11-knowledge-map.png"
+    },
+    {
+      "lesson": 12,
+      "title": "RIP/OSPF/BGP概念、IPv6与网络层综合",
+      "unit": "第3单元 网络层、IPv4/IPv6、路由与网络互联",
+      "image": "images/lesson-12-knowledge-map.png"
+    },
+    {
+      "lesson": 13,
+      "title": "端口、复用/分用、UDP与Socket概念",
+      "unit": "第4单元 运输层、UDP/TCP与端到端可靠传输",
+      "image": "images/lesson-13-knowledge-map.png"
+    },
+    {
+      "lesson": 14,
+      "title": "TCP报文段、序号确认、三次握手与连接释放",
+      "unit": "第4单元 运输层、UDP/TCP与端到端可靠传输",
+      "image": "images/lesson-14-knowledge-map.png"
+    },
+    {
+      "lesson": 15,
+      "title": "可靠传输、滑动窗口、超时重传与流量控制",
+      "unit": "第4单元 运输层、UDP/TCP与端到端可靠传输",
+      "image": "images/lesson-15-knowledge-map.png"
+    },
+    {
+      "lesson": 16,
+      "title": "拥塞控制、RTT与TCP/QUIC性能故障分析",
+      "unit": "第4单元 运输层、UDP/TCP与端到端可靠传输",
+      "image": "images/lesson-16-knowledge-map.png"
+    },
+    {
+      "lesson": 17,
+      "title": "客户端/服务器、P2P、DNS与DHCP",
+      "unit": "第5单元 应用层协议与网络服务",
+      "image": "images/lesson-17-knowledge-map.png"
+    },
+    {
+      "lesson": 18,
+      "title": "HTTP/HTTPS、状态码、连接复用与Web缓存",
+      "unit": "第5单元 应用层协议与网络服务",
+      "image": "images/lesson-18-knowledge-map.png"
+    },
+    {
+      "lesson": 19,
+      "title": "电子邮件、FTP/SFTP与Socket应用模型",
+      "unit": "第5单元 应用层协议与网络服务",
+      "image": "images/lesson-19-knowledge-map.png"
+    },
+    {
+      "lesson": 20,
+      "title": "REST/API、WebSocket、MQTT、CDN与应用层综合故障链",
+      "unit": "第5单元 应用层协议与网络服务",
+      "image": "images/lesson-20-knowledge-map.png"
+    },
+    {
+      "lesson": 21,
+      "title": "网络管理与分层诊断：Ping、Traceroute、表项与抓包证据",
+      "unit": "第6单元 网络管理、安全、新型网络与智能制造应用",
+      "image": "images/lesson-21-knowledge-map.png"
+    },
+    {
+      "lesson": 22,
+      "title": "网络安全目标、TLS、防火墙、VPN与访问控制",
+      "unit": "第6单元 网络管理、安全、新型网络与智能制造应用",
+      "image": "images/lesson-22-knowledge-map.png"
+    },
+    {
+      "lesson": 23,
+      "title": "SDN、网络虚拟化、云/边缘、IoT与智能制造网络",
+      "unit": "第6单元 网络管理、安全、新型网络与智能制造应用",
+      "image": "images/lesson-23-knowledge-map.png"
+    },
+    {
+      "lesson": 24,
+      "title": "中小型网络设计、分层故障分析与课程综合验收",
+      "unit": "第6单元 网络管理、安全、新型网络与智能制造应用",
+      "image": "images/lesson-24-knowledge-map.png"
+    }
+  ],
+  "syllabus": "25JX21801-计算机网络（B）-课程教学大纲.md",
+  "sha256": {
+    "25JX21801-计算机网络（B）-教案.md": "15044251374136fed84fbc40a4536f5aa14588041213ebc836ac48ed5b69ef28",
+    "images/lesson-01-knowledge-map.png": "bcf5120f36d1efea96861396b162c3c0e19b23a3b7faec98cc678a26e5e45595",
+    "images/lesson-02-knowledge-map.png": "dd5c8d97f45352c6fd35a66ee250374af225aa0f9fd93f6042664e2d893c9278",
+    "images/lesson-03-knowledge-map.png": "aa1e8e5642e7ac23ef3597215a89f0d5c5c09724a2a3fb53a9fbdbfd1a56ee24",
+    "images/lesson-04-knowledge-map.png": "5376edf8c180c2c1ed97ff3336cad84d94b0a92cbb4633558c8784490c82fd72",
+    "images/lesson-05-knowledge-map.png": "b923c895c6ba92098c9a8be987ed6b191fdadd15b8bad91b79d912b89ffffd44",
+    "images/lesson-06-knowledge-map.png": "3ba38bd0946dfba831fec766a9515e03e446b9f948e06f26172795ea866a22d1",
+    "images/lesson-07-knowledge-map.png": "328e5f848a6319ca189aa07c8dcfb3fff47c6fa95211664afab128a7da7bf030",
+    "images/lesson-08-knowledge-map.png": "b3594c5e6b31a6738faa2d90f734293fc1c6e67e878f591c8cca4eff40c41aaf",
+    "images/lesson-09-knowledge-map.png": "48e897ca505cb10ac08d8bc3821dc5e3a9e15880cd33f1502e8544e5c8efbdf8",
+    "images/lesson-10-knowledge-map.png": "97bce2bc3e4f1fb71d735801d530ea2bf5593740ba270ec5421eb71c44f73d93",
+    "images/lesson-11-knowledge-map.png": "7b7ffca76cdce86009bc5558fe96e39e0f66babba47c4d980fbca32fd7e99043",
+    "images/lesson-12-knowledge-map.png": "82e77574bbf0a624e1f6f75601d7d80dc70119bcd1046c128cc1f18144945cbd",
+    "images/lesson-13-knowledge-map.png": "4bfb7e81237e3e6c45114a51ac1c47ceec2ddcf39be964c8ddeffc10d98209a6",
+    "images/lesson-14-knowledge-map.png": "0678ad8f58c9e4efaee5c973f0f8da224de23243de72c6ddf298cf7c59243c35",
+    "images/lesson-15-knowledge-map.png": "5d72de32f19d1d563a72944036b524bcd37dd39449a9240d6ee44dd94931e554",
+    "images/lesson-16-knowledge-map.png": "4ae900eed22b50d65429992526e19b5309a4c5ea27abca995409cc03485a94d5",
+    "images/lesson-17-knowledge-map.png": "89ab9f675564991f5a93f64543b96298e5b85d5e08ac8aaceb2b0e15cc0e4ae8",
+    "images/lesson-18-knowledge-map.png": "e81f8fb82d66855b4cc273325c6f991bf48d6b17d9a0de3921a0bcee888c5d12",
+    "images/lesson-19-knowledge-map.png": "e465b5337ab15b7f97d32923c925433c35d7557ca589719b268967be98a02b4f",
+    "images/lesson-20-knowledge-map.png": "3cbe3e55e47def3a4c7e9060a0c42bb9268faa492462bb3ee2c7dd7c11d88895",
+    "images/lesson-21-knowledge-map.png": "6136e0ee34472a64a1c0c5f0fc085e985f624e7daedcf1209c487fd77d57c6ec",
+    "images/lesson-22-knowledge-map.png": "a2fe1e62fdaf7af70c89091e10f815387f1dae62ca105c1a57f141d890c274af",
+    "images/lesson-23-knowledge-map.png": "0fe15536bf852be4c717286131b8485ab0ad3370025bd9c7ffb479db11ca5d6b",
+    "images/lesson-24-knowledge-map.png": "5f9d1a69151af9431e6533ba6e82793f3fc78c26b0b69be64b4116820e32e60c"
+  }
+}
