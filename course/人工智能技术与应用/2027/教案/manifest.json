@@ -1,0 +1,249 @@
+{
+  "course": "人工智能技术与应用",
+  "course_code": "25JD31401",
+  "canonical_markdown": "人工智能技术与应用_教案_28次课_最终版.md",
+  "lesson_count": 28,
+  "hours": {
+    "total": 56,
+    "theory": 24,
+    "computer_lab": 32
+  },
+  "syllabus": {
+    "path": "course/人工智能技术与应用/2027/大纲/25JD31401-人工智能技术与应用-课程教学大纲.md",
+    "sha": "06babd3967479de65cfaf4fbf5173c242557db6c",
+    "updated": "2026年9月"
+  },
+  "template_identifier": "程序设计基础（C&C++）Ⅰ最终校版学校教学设计布局基线（仅作Word格式模板）",
+  "course_map": "images/course-knowledge-map.png",
+  "lessons": [
+    {
+      "no": 1,
+      "type": "理论",
+      "section": "第一单元 人工智能基础与表征学习",
+      "title": "人工智能范式、数据表示与距离",
+      "image": "images/lesson-01-knowledge-map.png",
+      "assessment": "平时表现；目标1.1、2.1、3.1。"
+    },
+    {
+      "no": 2,
+      "type": "理论",
+      "section": "第一单元 人工智能基础与表征学习",
+      "title": "PCA、SVD与神经网络：从线性表征到非线性表征",
+      "image": "images/lesson-02-knowledge-map.png",
+      "assessment": "平时表现、期末考试；目标1.1、2.1、3.1。"
+    },
+    {
+      "no": 3,
+      "type": "上机",
+      "section": "上机一 PCA、SVD与神经网络基础",
+      "title": "PCA/SVD降维、重建与可视化",
+      "image": "images/lesson-03-knowledge-map.png",
+      "assessment": "上机实验；目标1.1、2.1、3.1。"
+    },
+    {
+      "no": 4,
+      "type": "上机",
+      "section": "上机一 PCA、SVD与神经网络基础",
+      "title": "MLP分类、训练曲线与表示对比",
+      "image": "images/lesson-04-knowledge-map.png",
+      "assessment": "上机实验；目标1.1、2.1、3.1。"
+    },
+    {
+      "no": 5,
+      "type": "理论",
+      "section": "第二单元 Transformer与大语言模型",
+      "title": "注意力机制与Transformer结构",
+      "image": "images/lesson-05-knowledge-map.png",
+      "assessment": "平时表现、期末考试；目标1.2、2.2、3.2。"
+    },
+    {
+      "no": 6,
+      "type": "理论",
+      "section": "第二单元 Transformer与大语言模型",
+      "title": "LLM推理、提示设计与结构化输出",
+      "image": "images/lesson-06-knowledge-map.png",
+      "assessment": "平时表现、期末考试；目标1.2、2.2、3.2。"
+    },
+    {
+      "no": 7,
+      "type": "上机",
+      "section": "上机二 LLM接口与结构化输出",
+      "title": "模型接口、提示模板与结构化信息提取",
+      "image": "images/lesson-07-knowledge-map.png",
+      "assessment": "上机实验；目标1.2、2.2、3.2。"
+    },
+    {
+      "no": 8,
+      "type": "上机",
+      "section": "上机二 LLM接口与结构化输出",
+      "title": "异常注入、输出校验与调用质量评价",
+      "image": "images/lesson-08-knowledge-map.png",
+      "assessment": "上机实验；目标1.2、2.2、3.2。"
+    },
+    {
+      "no": 9,
+      "type": "理论",
+      "section": "第三单元 RAG与知识工程",
+      "title": "Embedding、文本切分、向量检索与重排序",
+      "image": "images/lesson-09-knowledge-map.png",
+      "assessment": "平时表现、期末考试；目标1.3、2.3、3.3。"
+    },
+    {
+      "no": 10,
+      "type": "理论",
+      "section": "第三单元 RAG与知识工程",
+      "title": "知识图谱、图查询与GraphRAG知识增强",
+      "image": "images/lesson-10-knowledge-map.png",
+      "assessment": "平时表现、期末考试；目标1.3、2.3、3.3。"
+    },
+    {
+      "no": 11,
+      "type": "上机",
+      "section": "上机四 RAG知识库",
+      "title": "文档切分、元数据与向量索引构建",
+      "image": "images/lesson-11-knowledge-map.png",
+      "assessment": "上机实验；目标1.3、2.3、3.3。"
+    },
+    {
+      "no": 12,
+      "type": "上机",
+      "section": "上机四 RAG知识库",
+      "title": "带引用回答、重排序与RAG AB评价",
+      "image": "images/lesson-12-knowledge-map.png",
+      "assessment": "上机实验；目标1.3、2.3、3.3。"
+    },
+    {
+      "no": 13,
+      "type": "上机",
+      "section": "上机六 知识图谱与知识增强诊断",
+      "title": "3D打印领域三元组建模与图谱构建",
+      "image": "images/lesson-13-knowledge-map.png",
+      "assessment": "上机实验；目标1.3、2.3、3.3。"
+    },
+    {
+      "no": 14,
+      "type": "上机",
+      "section": "上机六 知识图谱与知识增强诊断",
+      "title": "一跳/多跳查询与知识增强诊断路径",
+      "image": "images/lesson-14-knowledge-map.png",
+      "assessment": "上机实验；目标1.3、2.3、3.3。"
+    },
+    {
+      "no": 15,
+      "type": "理论",
+      "section": "第四单元 Agent、工具调用与状态工作流",
+      "title": "Agent Loop：目标、状态、动作、工具、记忆与终止",
+      "image": "images/lesson-15-knowledge-map.png",
+      "assessment": "平时表现、期末考试；目标1.4、2.4、3.2、3.4。"
+    },
+    {
+      "no": 16,
+      "type": "理论",
+      "section": "第四单元 Agent、工具调用与状态工作流",
+      "title": "状态机与LangGraph：条件路由、循环、持久化与人工中断",
+      "image": "images/lesson-16-knowledge-map.png",
+      "assessment": "平时表现、期末考试；目标1.4、2.4、3.4。"
+    },
+    {
+      "no": 17,
+      "type": "上机",
+      "section": "上机三 工具调用与单Agent Loop",
+      "title": "工具Schema、参数校验与调用分派",
+      "image": "images/lesson-17-knowledge-map.png",
+      "assessment": "上机实验；目标1.2、1.4、2.2、2.4、3.2、3.4。"
+    },
+    {
+      "no": 18,
+      "type": "上机",
+      "section": "上机三 工具调用与单Agent Loop",
+      "title": "可终止单Agent Loop、日志与故障注入",
+      "image": "images/lesson-18-knowledge-map.png",
+      "assessment": "上机实验；目标1.4、2.4、3.2、3.4。"
+    },
+    {
+      "no": 19,
+      "type": "上机",
+      "section": "上机五 LangGraph状态工作流",
+      "title": "状态、节点、条件边与循环编排",
+      "image": "images/lesson-19-knowledge-map.png",
+      "assessment": "上机实验；目标1.4、2.4、3.4。"
+    },
+    {
+      "no": 20,
+      "type": "上机",
+      "section": "上机五 LangGraph状态工作流",
+      "title": "持久化、人工中断、错误恢复与回归测试",
+      "image": "images/lesson-20-knowledge-map.png",
+      "assessment": "上机实验；目标1.4、2.4、3.4。"
+    },
+    {
+      "no": 21,
+      "type": "理论",
+      "section": "第五单元 多Agent、MCP与Harness Engineering",
+      "title": "多Agent角色、消息、共享状态与协调模式",
+      "image": "images/lesson-21-knowledge-map.png",
+      "assessment": "平时表现、期末考试；目标1.5、2.5、3.5。"
+    },
+    {
+      "no": 22,
+      "type": "理论",
+      "section": "第五单元 多Agent、MCP与Harness Engineering",
+      "title": "MCP、上下文工程、Skill与Harness Engineering",
+      "image": "images/lesson-22-knowledge-map.png",
+      "assessment": "平时表现、期末考试；目标1.5、2.5、3.5。"
+    },
+    {
+      "no": 23,
+      "type": "上机",
+      "section": "上机七 多Agent、MCP与简化Harness",
+      "title": "多Agent角色、结构化消息与共享状态",
+      "image": "images/lesson-23-knowledge-map.png",
+      "assessment": "上机实验；目标1.5、2.5、3.5。"
+    },
+    {
+      "no": 24,
+      "type": "上机",
+      "section": "上机七 多Agent、MCP与简化Harness",
+      "title": "MCP工具服务、权限、日志与简化Harness集成",
+      "image": "images/lesson-24-knowledge-map.png",
+      "assessment": "上机实验；目标1.5、2.5、3.5。"
+    },
+    {
+      "no": 25,
+      "type": "理论",
+      "section": "第六单元 评测、安全与智能制造综合应用",
+      "title": "LLM/Agent测试集、评价指标与监控",
+      "image": "images/lesson-25-knowledge-map.png",
+      "assessment": "平时表现、期末考试；目标1.6、2.6、3.6。"
+    },
+    {
+      "no": 26,
+      "type": "理论",
+      "section": "第六单元 评测、安全与智能制造综合应用",
+      "title": "提示注入、越权、隐私与3D打印AI系统架构",
+      "image": "images/lesson-26-knowledge-map.png",
+      "assessment": "平时表现、期末考试；目标1.6、2.6、3.2、3.6。"
+    },
+    {
+      "no": 27,
+      "type": "上机",
+      "section": "上机八 3D打印智能工艺与故障诊断助手",
+      "title": "综合集成：RAG、知识图谱、工具、工作流与多Agent",
+      "image": "images/lesson-27-knowledge-map.png",
+      "assessment": "综合项目；目标1.6、2.6、3.5、3.6。"
+    },
+    {
+      "no": 28,
+      "type": "上机",
+      "section": "上机八 3D打印智能工艺与故障诊断助手",
+      "title": "测试、安全验收、现场演示与个人解释",
+      "image": "images/lesson-28-knowledge-map.png",
+      "assessment": "综合项目；目标1.6、2.6、3.5、3.6。"
+    }
+  ],
+  "files": {
+    "人工智能技术与应用_教案_28次课_最终版.md": "64837e9556cd554a67c5629d048f24930f4ff498d6adf263f2e5d5d9a99a33e9",
+    "manifest.json": "self-generated",
+    "images_count": 29
+  }
+}

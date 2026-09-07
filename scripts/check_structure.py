@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""结构自检：版本原子目录、md/docx 配对提醒。
+"""结构自检：版本原子目录、大纲 md/docx 配对提醒。
 
 用法：py -3.12 scripts/check_structure.py
 
@@ -7,7 +7,7 @@
   1. course/<课程名>/<版本>/ 下必须有 大纲/ 和 教案/ 两个目录（教案可为空，仅 .gitkeep）；
   2. 文件名采用课程代码原名（如 25JX31802-…），不以版本年为前缀；
   3. 大纲/ 中若存在 .docx 而定稿缺同名 .md（事实源）→ 提示为警告（允许 docx 先行）；
-  4. md 若有但缺同名 .docx（可编译到学校版）→ 警告；
+  4. 大纲/ 中 md 若有但缺同名 .docx（可编译到学校版）→ 警告；教案目录不做此成对强制（其 md 主源与 docx 定稿本就不同名）；
   5. 每个版本目录必须有 README.md 自查清单；
   6. 每个版本目录都能追溯到 version/<版本>.md。
 """
@@ -73,7 +73,10 @@ def main() -> int:
 
                 # 2. 命名不强制版本年前缀，此处不检查前缀
 
-                # 3/4. md/docx 配对提醒
+                # 3/4. md/docx 配对提醒：仅大纲要求"同一文档 md 源 + docx 编译产物 成对"；
+                #      教案的 md 主源与 docx 定稿本就不同名，不做成对强制。
+                if kind != "大纲":
+                    continue
                 md_stems = {p.stem for p in files if p.suffix == ".md"}
                 docx_stems = {p.stem for p in files if p.suffix == ".docx"}
                 for stem in sorted(md_stems - docx_stems):
