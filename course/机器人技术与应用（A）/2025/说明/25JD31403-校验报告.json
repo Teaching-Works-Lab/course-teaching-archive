@@ -1,0 +1,98 @@
+{
+  "course": "25JD31403 机器人技术与应用（A）",
+  "result": "PASS_WITH_BASELINE_GATE_EXCEPTION",
+  "semantic_baseline": {
+    "repository": "Teaching-Works-Lab/course-teaching-archive",
+    "path": "course/机器人技术与应用（A）/2025/大纲/25JD31403-机器人技术与应用（A）-课程教学大纲.md",
+    "commit": "8b341d0ac0a4f45688fa3e931f22700d0a12e1d2",
+    "history": "该文件当前仅此一次提交，作为最新唯一语义基线。"
+  },
+  "assessment_migration": {
+    "old": "平时表现15% + 实验与上机25% + 综合项目25% + 期末考试35%",
+    "new": "平时成绩20% + 课程作业20% + 期末考核60%",
+    "course_assignment_evidence": "实验与上机成果",
+    "final_assessment_internal": "综合项目42% + 期末考试58%",
+    "exam_modality": "基线只规定“考试”，未规定闭卷/开卷/机考；本次未新增形式。"
+  },
+  "checks": {
+    "semantic_baseline_outside_evaluation_unchanged": true,
+    "hard_facts_preserved": true,
+    "overall_weights_20_20_60": true,
+    "regular_internal_100": true,
+    "assignment_internal_100": true,
+    "final_internal_100": true,
+    "regular_rubric_100": true,
+    "assignment_rubric_100": true,
+    "final_rubric_100": true,
+    "three_grade_columns": true,
+    "old_grade_columns_removed": true,
+    "only_three_rubric_headings": true,
+    "teaching_sections_retained": true,
+    "all_18_goals_present": true,
+    "no_exam_modality_invented": true,
+    "word_no_old_assessment_ratios": true,
+    "word_three_new_grade_columns": true,
+    "word_no_other_course_pollution": true,
+    "word_basic_table_12x8": true,
+    "visual_pages": true
+  },
+  "current_skill_gate": {
+    "check_result": "BASELINE_INHERITED_FALSE_POSITIVE",
+    "modified_check_output": "FORBIDDEN_MARKER: AI生成",
+    "baseline_check_output": "FORBIDDEN_MARKER: AI生成",
+    "inspect_result": "BASELINE_INHERITED_FALSE_POSITIVE",
+    "inspect_output": "GENERATION_MARKER:",
+    "reason": "current validate_release.py / inspect_docx.py use a broad substring check for “AI生成”. The immutable baseline itself contains legitimate course-content phrases such as “能够核验工具或AI生成结果” and “所有工具/AI生成内容由提交者负责验证”. Removing or rewriting them would violate the user-required semantic baseline. The migration introduces no such text and preserves it unchanged.",
+    "baseline_lines_with_marker": [
+      "|  | **3.6** 形成规范编程、版本管理、团队协作和持续学习意识，能够核验工具或AI生成结果并对本人提交的模型、代码和结论负责。 | 项目采用Git版本记录、接口文档、测试报告和个人答辩，AI或工具生成内容必须由学生运行、解释和验证。 |",
+      "| 项目二 Python机器人系统实现、验证与答辩 | 完成Python模型与仿真；实现运动学/规划/控制中的核心链路；记录数据、轨迹、误差、异常与安全测试；提交代码、模型、说明书和演示；完成个人现场解释或修改 | 4 | **思政/任务要求：**综合实践型；代码、参数、版本、数据和个人贡献必须可追溯，所有工具/AI生成内容由提交者负责验证。<br>**预期学习成果：**知识层面：综合理解机器人模型、算法与系统链路。<br>能力层面：完成可运行、可复现、可解释的项目并现场定位问题。<br>素养层面：形成工程交付、协作、诚信和持续改进意识。<br>**教学方式：**迭代开发、测试验收、演示、个人答辩 | 目标 2.1—2.6，3.1—3.6 |"
+    ]
+  },
+  "visual_qa": {
+    "pages": 7,
+    "result": "PASS",
+    "notes": "全7页逐页渲染检查；无裁切、重叠、缺字、异常空白页。参考书目与签批已压回第7页。"
+  },
+  "word_tables": [
+    [
+      12,
+      8
+    ],
+    [
+      19,
+      3
+    ],
+    [
+      7,
+      5
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      14,
+      4
+    ]
+  ]
+}
