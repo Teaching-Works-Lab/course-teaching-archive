@@ -1,0 +1,303 @@
+{
+  "course": "25JX21804 数据库基础",
+  "change": "四项考核改为三项：平时20%+课程作业20%+期末闭卷笔试60%",
+  "result": "PASS",
+  "check_count": 58,
+  "checks": [
+    {
+      "name": "评价章节之前除18处达成方法短语外逐字不变",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "参考书目及其后逐字不变",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "18处达成方法路径全部替换",
+      "pass": true,
+      "detail": "new=18"
+    },
+    {
+      "name": "硬事实-25JX21804",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "硬事实-数据库基础",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "硬事实-第5学期",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "硬事实-| 学分 | 2 |",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "硬事实-总学时32；理论8；实践0；实验0；上机24；项目式0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "硬事实-| 课程性质 | 选修课 |",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "硬事实-| 授课学院 | 计算机与信息技术学院 |",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "理论教学章节逐字不变",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "上机教学章节逐字不变",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "总评说明精确",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "考核方式精确",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "总评公式精确",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "三项结构无旧独立分项",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "三个评分分项存在",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "平时成绩权重合计100",
+      "pass": true,
+      "detail": "[10, 10, 20, 15, 15, 30]"
+    },
+    {
+      "name": "课程作业权重合计100",
+      "pass": true,
+      "detail": "[15, 15, 20, 20, 15, 15]"
+    },
+    {
+      "name": "期末笔试权重合计100",
+      "pass": true,
+      "detail": "[15, 15, 25, 20, 15, 10]"
+    },
+    {
+      "name": "总评权重合计100",
+      "pass": true,
+      "detail": "[20, 20, 60]"
+    },
+    {
+      "name": "平时量表权重合计100",
+      "pass": true,
+      "detail": "[40, 35, 25]"
+    },
+    {
+      "name": "课程作业量表权重合计100",
+      "pass": true,
+      "detail": "[15, 15, 20, 20, 15, 15]"
+    },
+    {
+      "name": "期末笔试量表权重合计100",
+      "pass": true,
+      "detail": "[15, 15, 40, 15, 15]"
+    },
+    {
+      "name": "18个课程目标编号完整",
+      "pass": true,
+      "detail": "['1.1', '1.2', '1.3', '1.4', '1.5', '1.6', '2.1', '2.2', '2.3', '2.4', '2.5', '2.6', '3.1', '3.2', '3.3', '3.4', '3.5', '3.6']"
+    },
+    {
+      "name": "目标1.1有考核路径",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "目标1.2有考核路径",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "目标1.3有考核路径",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "目标1.4有考核路径",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "目标1.5有考核路径",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "目标1.6有考核路径",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "目标2.1有考核路径",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "目标2.2有考核路径",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "目标2.3有考核路径",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "目标2.4有考核路径",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "目标2.5有考核路径",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "目标2.6有考核路径",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "目标3.1有考核路径",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "目标3.2有考核路径",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "目标3.3有考核路径",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "目标3.4有考核路径",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "目标3.5有考核路径",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "目标3.6有考核路径",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Word三项考核表列数8",
+      "pass": true,
+      "detail": "(8, 8)"
+    },
+    {
+      "name": "Word评分表总数与结构",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Word包含-平时成绩（20%）",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Word包含-课程作业（20%）",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Word包含-期末笔试（60%）",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Word包含-考查（期末采用闭卷笔试）",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Word包含-（3）期末闭卷笔试评分标准",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Word删除-综合数据库成果评分标准",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Word删除-个人核验与答辩评分标准",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Word删除-综合成果（35%）",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Word删除-个人核验（10%）",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Word无批注",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Word无修订",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Word无隐藏文字",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Word视觉回归7页",
+      "pass": true,
+      "detail": "7页逐页检查，无明显裁切、重叠、缺字或异常空白页"
+    }
+  ],
+  "visual_qa": {
+    "pages": 7,
+    "result": "PASS",
+    "notes": "逐页检查，考核映射表已变为三项考核列；课程作业表保留原上机任务内容；期末闭卷笔试表跨第6-7页连续显示正常。"
+  }
+}
