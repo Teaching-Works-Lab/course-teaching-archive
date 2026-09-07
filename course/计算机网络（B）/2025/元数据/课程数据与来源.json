@@ -1,0 +1,44 @@
+{
+  "course_code": "25JX21801",
+  "course_title": "计算机网络（B）",
+  "program_repo": "Teaching-Works-Lab/intelligent-manufacturing-syllabus",
+  "program_file": "data/program.json",
+  "program_blob_sha": "cfc4ff117a8abcf727b8964072ea2b3a8b5236ab",
+  "course_facts": {
+    "category": "professional_elective",
+    "requirement_type": "elective",
+    "core_course": false,
+    "credits": 3,
+    "hours": {
+      "lecture": 48,
+      "practice": 0,
+      "experiment": 0,
+      "computer": 0,
+      "project": 0,
+      "total": 48
+    },
+    "semester": 6,
+    "assessment": "考查",
+    "offering_unit_raw": "计信学院",
+    "source_page": 12
+  },
+  "supported_indicators": [
+    "1.2",
+    "3.2",
+    "5.1",
+    "5.2",
+    "5.3",
+    "10.1",
+    "10.2",
+    "12.1",
+    "12.2"
+  ],
+  "compiler_repo": "Teaching-Works-Lab/course-teaching-workflows",
+  "compiler_skill_sha": "2a1d121fc8c220c7243f0c7e476fafba3525a3de",
+  "compiler_script_git_blobs": {
+    "syllabus.py": "a48f9e8d1354c06d65259db6a55c779fd9405d37",
+    "render_school_syllabus.py": "760e98ebb7afbdcff49a813c034e330aedfd1560",
+    "inspect_docx.py": "7e06af4bba1c331326abe1f4d75720c8416ea341",
+    "validate_release.py": "1b4dcfc96dd30944d4a2d98448bd4b4987f374bd"
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "course": "25JX21801 计算机网络（B）",
+  "result": "PASS",
+  "workflow": "依据 course-syllabus-compiler 当前 SKILL/authoring/school-format/assessment/bibliography 合同编制；Word沿用同一Skill已验证的48理论学时学校renderer版式基座并替换课程语义内容；随后执行结构、OOXML和逐页视觉检查。",
+  "check_count": 56,
+  "checks": [
+    {
+      "name": "硬事实-课程代码",
+      "pass": true,
+      "detail": "25JX21801"
+    },
+    {
+      "name": "硬事实-课程名称",
+      "pass": true,
+      "detail": "计算机网络（B）"
+    },
+    {
+      "name": "硬事实-学分",
+      "pass": true,
+      "detail": "3"
+    },
+    {
+      "name": "硬事实-授课学期",
+      "pass": true,
+      "detail": "第6学期"
+    },
+    {
+      "name": "硬事实-考核方式",
+      "pass": true,
+      "detail": "考查"
+    },
+    {
+      "name": "硬事实-授课学院",
+      "pass": true,
+      "detail": "计算机与信息技术学院"
+    },
+    {
+      "name": "学时分配",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "理论单元学时48",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "零学时环节不生成",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "18个课程目标",
+      "pass": true,
+      "detail": "18"
+    },
+    {
+      "name": "目标1.1闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标1.2闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标1.3闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标1.4闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标1.5闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标1.6闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标2.1闭环",
+      "pass": true,
+      "detail": "count=6"
+    },
+    {
+      "name": "目标2.2闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标2.3闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标2.4闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标2.5闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标2.6闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标3.1闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标3.2闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标3.3闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标3.4闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标3.5闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "目标3.6闭环",
+      "pass": true,
+      "detail": "count=5"
+    },
+    {
+      "name": "总评合计100",
+      "pass": true,
+      "detail": "[20, 30, 40, 10]"
+    },
+    {
+      "name": "平时内部合计100",
+      "pass": true,
+      "detail": "[10, 15, 25, 15, 15, 20]"
+    },
+    {
+      "name": "作业内部合计100",
+      "pass": true,
+      "detail": "[10, 20, 25, 20, 15, 10]"
+    },
+    {
+      "name": "报告内部合计100",
+      "pass": true,
+      "detail": "[10, 15, 25, 15, 15, 20]"
+    },
+    {
+      "name": "核验内部合计100",
+      "pass": true,
+      "detail": "[10, 15, 25, 20, 15, 15]"
+    },
+    {
+      "name": "平时量表合计100",
+      "pass": true,
+      "detail": "[40, 35, 25]"
+    },
+    {
+      "name": "作业量表合计100",
+      "pass": true,
+      "detail": "[10, 20, 25, 20, 15, 10]"
+    },
+    {
+      "name": "报告量表合计100",
+      "pass": true,
+      "detail": "[10, 15, 25, 15, 15, 20]"
+    },
+    {
+      "name": "核验量表合计100",
+      "pass": true,
+      "detail": "[35, 45, 20]"
+    },
+    {
+      "name": "教材ISBN终止规则",
+      "pass": true,
+      "detail": "胡亮, 徐高潮, 张宗升, 霍严梅, 车喜龙. 计算机网络[M]. 北京：高等教育出版社，2024. ISBN 9787040612875"
+    },
+    {
+      "name": "无禁用词-待确认",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "无禁用词-待编制",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "无禁用词-AI生成",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "无禁用词-ChatGPT",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "无禁用词-Codex",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "无禁用词-source_id",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "无禁用词-proposal",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "无禁用词-official",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "无禁用词-derived",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "无禁用词-候选",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "无禁用词-建议值",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "无禁用词-计信学院",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "学校基本信息表12x8",
+      "pass": true,
+      "detail": "(12, 8)"
+    },
+    {
+      "name": "理论型课程表结构",
+      "pass": true,
+      "detail": "[(12, 8), (19, 3), (7, 5), (8, 9), (5, 4), (8, 4), (8, 4), (5, 4)]"
+    },
+    {
+      "name": "无批注",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "无修订",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "无隐藏文字",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "视觉回归6页",
+      "pass": true,
+      "detail": "6页逐页检查通过"
+    }
+  ],
+  "visual_qa": {
+    "pages": 6,
+    "result": "PASS",
+    "notes": "逐页检查，无明显裁切、重叠、缺字或异常空白页；第6页为学习资料与签批。"
+  }
+}
