@@ -1,43 +1,35 @@
 {
   "course": "25JX21801 计算机网络（B）",
   "result": "PASS",
-  "scope": "仅重构“四、课程评价”，课程简介、18个课程目标、理论教学单元、教材与其他章节均保持不变。",
-  "assessment_structure": {
-    "平时学习与课堂分析": 20,
-    "课程作业（协议与报文分析）": 20,
-    "期末综合考查": 60
-  },
-  "final_comprehensive": {
-    "form": "网络设计与故障分析综合报告 + 个人核验答辩",
-    "written_exam": false,
-    "computer_exam": false,
-    "内部构成": {
-      "综合报告": 80,
-      "个人核验答辩": 20
-    }
-  },
   "checks": {
-    "评价节之前Markdown字节级不变": true,
-    "评价节之后Markdown字节级不变": true,
-    "总评20+20+60=100": true,
-    "平时内部权重=100": true,
-    "课程作业内部权重=100": true,
-    "期末综合考查内部权重=100": true,
-    "平时评分表=100": true,
-    "课程作业评分表=100": true,
-    "期末综合考查评分表=100": true,
-    "DOCX评价表8x8": true,
-    "DOCX仅保留三组评分标准": true,
-    "无旧四项表头": true,
-    "无旧第四评分分项": true,
-    "明确无笔试机考": true,
-    "考查性质不变": true,
-    "课程目标完整覆盖": true,
-    "视觉回归5页": true
+    "course_code": true,
+    "college_formal": true,
+    "hours_hard_fact": true,
+    "assessment_no_exam": true,
+    "assessment_total": true,
+    "six_units": true,
+    "teaching_hours_sum": true,
+    "assessment_column_1": true,
+    "assessment_column_2": true,
+    "assessment_column_3": true,
+    "daily_rubric": true,
+    "assignment_rubric": true,
+    "final_rubric": true,
+    "18_goals": true,
+    "no_unresolved_placeholder": true,
+    "isbn_ending_clean": true
   },
+  "source_markdown": "25JX21801-计算机网络（B）-课程教学大纲.md",
+  "docx": "25JX21801-计算机网络（B）-课程教学大纲.docx",
+  "notes": "Markdown先通过内容/权重/目标闭环校验，再编译Word。Word按school-layout-contract主要参数重建并进入视觉QA。",
   "visual_qa": {
-    "pages": 5,
+    "pages": 8,
     "result": "PASS",
-    "notes": "逐页检查通过，无明显裁切、重叠、缺字或异常空白页。"
-  }
+    "notes": "已逐页检查8页PNG；未发现裁切、重叠、缺字、异常空白页或表格溢出。"
+  },
+  "style_lint": {
+    "executed": true,
+    "notes": "已执行DOCX样式扫描；最终版以学校布局合同和渲染结果为准。"
+  },
+  "privacy_scrub": "PASS"
 }
